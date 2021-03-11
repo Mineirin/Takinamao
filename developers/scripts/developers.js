@@ -162,7 +162,7 @@ function getSearchBoxCode(swt){
 			$("#searchBoxCodeForm :input").prop('disabled', false);
 			$('#preview-banner').html("");
 			$('#codeBlock').html("");
-			$('#codeBlock').append("<code>There was an error processing your request.  Contact <a href=\"mailto:support@linkup.com\">support@linkup.com</a> if you continue to recieve this error.</code>");
+			$('#codeBlock').append("<code>There was an error processing your request.  Contact <a href=\"mailto:support@Takinamao.com\">support@Takinamao.com</a> if you continue to recieve this error.</code>");
 			$('#codeBlock').slideDown(500);
 	    }
 	});
@@ -212,7 +212,7 @@ function previewBanner(){
 	    $("#bannerAd :input").prop('disabled', false);
 			$('.js-preview-banner').html("");
 			$('.js-code-block').html("");
-			$('.js-code-block').append("<code>There was an error processing your request.  Contact <a href=\"mailto:support@linkup.com\">support@linkup.com</a> if you continue to recieve this error.</code>");
+			$('.js-code-block').append("<code>There was an error processing your request.  Contact <a href=\"mailto:support@Takinamao.com\">support@Takinamao.com</a> if you continue to recieve this error.</code>");
 			$('.js-code-block').slideDown(500);
 	    }
 	});
@@ -253,7 +253,7 @@ function saveBanner(swt){
 	    error: function(r,e){
 	    	$("#bannerAd :input").prop('disabled', false);
 			$('.js-code-block').html("");
-			$('.js-code-block').append("<code>There was an error processing your request.  Contact <a href=\"mailto:support@linkup.com\">support@linkup.com</a> if you continue to recieve this error.</code>");
+			$('.js-code-block').append("<code>There was an error processing your request.  Contact <a href=\"mailto:support@Takinamao.com\">support@Takinamao.com</a> if you continue to recieve this error.</code>");
 			$('.js-code-block').slideDown(500);
 	    }
 	});
@@ -289,7 +289,7 @@ function getSearchKey(){
 			$('#get_the_key').removeClass('submitButtonDisabled');
 			
 			$('#codeBlock').html("");
-			$('#codeBlock').append("<code>There was an error processing your request.  Contact <a href=\"mailto:support@linkup.com\">support@linkup.com</a> if you continue to recieve this error.</code>");
+			$('#codeBlock').append("<code>There was an error processing your request.  Contact <a href=\"mailto:support@Takinamao.com\">support@Takinamao.com</a> if you continue to recieve this error.</code>");
 			$('#codeBlock').slideDown(500);
 	    }
 	});
@@ -334,7 +334,7 @@ function getEmbeddedSearchKey(swt){
 	    error: function(r,e){
 	    	$("#embedded-search :input").prop('disabled', false);
 			$('#codeBlock').html("");
-			$('#codeBlock').append("<code>There was an error processing your request.  Contact <a href=\"mailto:support@linkup.com\">support@linkup.com</a> if you continue to recieve this error.</code>");
+			$('#codeBlock').append("<code>There was an error processing your request.  Contact <a href=\"mailto:support@Takinamao.com\">support@Takinamao.com</a> if you continue to recieve this error.</code>");
 			$('#codeBlock').slideDown(500);
 	    }
 	});
@@ -369,7 +369,7 @@ function addSite(){
 			$('#'+sitename).remove();
 			
 			$('#codeBlock').html("");
-			$('#codeBlock').append("<code>There was an error processing your request.  Contact <a href=\"mailto:support@linkup.com\">support@linkup.com</a> if you continue to recieve this error.</code>");
+			$('#codeBlock').append("<code>There was an error processing your request.  Contact <a href=\"mailto:support@Takinamao.com\">support@Takinamao.com</a> if you continue to recieve this error.</code>");
 			$('#codeBlock').slideDown(500);
 	    }
 	});

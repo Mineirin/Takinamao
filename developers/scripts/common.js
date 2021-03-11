@@ -1,4 +1,4 @@
-var LinkUp_Autocomplete = function() {
+var Takinamao_Autocomplete = function() {
 	last_category = '';
 }
 
@@ -298,7 +298,7 @@ function emailJobToAFriend() {
 function showRegistrationModal() {
 	$('#email-job').css('display', 'none');
 
-	$('#modal-overlay-content').html('<h1>Register to Save This Job</h1><p class="text-left">Getting an account on LinkUp is quick and easy. When you register, you will be able to access your past searches, bookmark your favorite jobs, and manage job alerts that are sent straight to your inbox!</p><p><a href="https://www.linkup.com/account/"><strong>Sign Up on LinkUp</strong></a></p><p><a class="cancel" href="#">Not now, thanks</a></p>');
+	$('#modal-overlay-content').html('<h1>Register to Save This Job</h1><p class="text-left">Getting an account on Takinamao is quick and easy. When you register, you will be able to access your past searches, bookmark your favorite jobs, and manage job alerts that are sent straight to your inbox!</p><p><a href="https://www.Takinamao.com/account/"><strong>Sign Up on Takinamao</strong></a></p><p><a class="cancel" href="#">Not now, thanks</a></p>');
 	$('#modal-window').height(188);
 
 	$('#modal-overlay').css('background-color','#ffffff').css('display', 'block');
@@ -1033,7 +1033,7 @@ function localBeacon(page) {
 	var d = {c1:2,c2:7190390,c3:"",c4:"",c5:"",c6:"",c15:""};
 	var e = document, h = e.location.href;
 	if(page){
-		h = 'http://www.linkup.com'+page;
+		h = 'http://www.Takinamao.com'+page;
 	}
 	var a = 1.7, g = 512, c = function(i, j) {
 		if (i === null) {
