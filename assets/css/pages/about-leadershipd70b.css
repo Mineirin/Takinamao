@@ -1,0 +1,39 @@
+.about-image {
+	padding-top:0;
+	width: 100%;
+}
+
+.recommended-logos img {
+	max-width: 150px;
+}
+
+.mission-statement span {
+	font-size: 21px;
+}
+
+.executives p {
+	padding: 0 20px;
+}
+
+.executives h4 {
+	line-height: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+	.about-title {
+		font-size: 32px;
+	}
+
+	.p-t-30 {
+		padding-top: unset;
+	}
+
+	.recommended-logos.valign-wrapper {
+		display: inherit;
+	}
+
+	.mission-statement {
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+}

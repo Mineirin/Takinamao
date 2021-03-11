@@ -1,0 +1,199 @@
+.audience-title {
+	font-size: 44px;
+}
+
+.audience-title + .row {
+	padding-top: 30px;
+}
+
+.sidebar .row {
+	margin: 0;
+	padding-right: 7.5px;
+}
+
+.sidebar .row .col {
+	padding-left: 0;
+}
+
+.sidebar > .row {
+	margin-bottom: 30px;
+}
+
+.sidebar h3:first-child {
+	margin-top: 0;
+}
+
+.sidebar .btn-primary {
+	margin-top: 15px;
+	width: 100%;
+	text-align: center;
+}
+
+.border-right {
+	border-right:2px solid #F3F3F3;
+}
+
+.sidebar .form-input {
+	width: 100%;
+}
+
+.blog-postings .row .col {
+	padding-bottom: 30px;
+}
+
+h3.posting-title {
+	margin-top: 0;
+}
+
+.posting-title a {
+	font-size: 22px;
+	color: #00274C;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.posting-details {
+	font-size: 14px;
+}
+
+#subscribe-field-blog_subscription-2 {
+	margin-top: 7.5px;
+	padding: 12px 15px 15px;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	box-sizing: border-box;
+	font-weight: 400;
+	font-size: 16px;
+	color: #00274C;
+	transition: 0.25s;
+}
+
+#subscribe-field-blog_subscription-2::-moz-placeholder,
+#subscribe-field-blog_subscription-2::-webkit-input-placeholder {
+	color: rgba(0, 39, 76, 0.5);
+}
+
+#subscribe-field-blog_subscription-2:focus {
+	border-bottom: 1px solid #00274C;
+	outline: 0;
+}
+
+#subscribe-field-blog_subscription-2:focus::-moz-placeholder,
+#subscribe-field-blog_subscription-2:focus::-webkit-input-placeholder {
+	color: rgba(0, 39, 76, 0.5);
+}
+
+#subscribe-submit input{
+	display: inline-block;
+	padding: 15px 30px;
+	margin: 7.5px 0 0 0;
+	font-family: Asap;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: 0.25s;
+	border-radius: 0;
+	box-shadow: none;
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+	background-color: #3A6E8F;
+	color: #FFFFFF;
+	width: 100%;
+}
+
+#subscribe-email input {
+	width: 100% !important;
+}
+
+#subscribe-submit input:hover {
+	box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+}
+
+#subscribe-submit input:hover,
+#subscribe-submit input:active,
+#subscribe-submit input:focus {
+	background-color: #00274C;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+	color: #FFFFFF;
+}
+
+/*** pagination ***/
+
+.blog-listing-pagination {
+	margin: 30px 0 60px 0;
+}
+
+.blog-listing-pagination li {
+	display: inline-block;
+	padding: 0;
+	float: none;
+}
+
+.blog-listing-pagination li {
+	border: none;
+	margin:3px 3px 3px 0;
+	color: white;
+}
+.blog-listing-pagination li a,
+.blog-listing-pagination .active span {
+	padding:15px 18px;
+	display: inline-block;
+}
+
+.blog-listing-pagination .btn-primary span {
+	color: #FFFFFF;
+	padding-bottom: 0;
+}
+
+.blog-listing-pagination .btn-secondary.active {
+	border: 2px solid #CCCCCC;
+	background-image: unset;
+	padding-bottom: 0;
+	background-color: none;
+	color: #3A6E8f;
+}
+
+.blog-postings .alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.blog-postings .alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.blog-postings .aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blog-postings article:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.blog-postings .meta p {
+	margin-top: 0;
+}
+
+.rotate-90 {
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	display: inline-block;
+	font-size: 10px;
+	position: relative;
+	top: -2px;
+}
+
+.back-to-results {
+	margin-bottom: 15px;
+}

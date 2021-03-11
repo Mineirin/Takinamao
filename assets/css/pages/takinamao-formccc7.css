@@ -1,0 +1,272 @@
+/***** MARKETO OVERRIDES *****/
+
+#mktoForm_2265 button,
+#mktoForm_2253 button,
+#mktoForm_2964 button {
+  color: black;
+  background-image: none;
+  background-color: #3a6e8f;
+  color: #ffffff;
+  padding: 15px 30px;
+  margin: 30px 0 15px;
+  font-family: Asap;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.25s;
+  border-radius: 0;
+  box-shadow: none;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+}
+
+#mktoForm_2265 button:hover,
+#mktoForm_2253 button:hover,
+#mktoForm_2964 button:hover #mktoForm_2265 button:active,
+#mktoForm_2253 button:active,
+#mktoForm_2964 button:active #mktoForm_2265 button:focus,
+#mktoForm_2253 button:focus,
+#mktoForm_2964 button:focus {
+  background-color: #00274c;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+}
+
+div.mktoFormRow {
+  width: 500px;
+}
+
+div.mktoFieldWrap {
+  width: 500px;
+}
+
+#mktoForm_2265 input,
+#mktoForm_2253 input,
+#mktoForm_2964 input {
+  padding: 12px 15px 15px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 16px;
+  color: #00274c;
+  transition: 0.25s;
+  width: 500px !important;
+}
+
+#mktoForm_2265 label,
+#mktoForm_2253 label,
+#mktoForm_2964 label {
+  font-weight: 400;
+  font-size: 16px;
+  color: #00274c;
+  width: 300px !important;
+  padding-bottom: 7.5px;
+}
+
+div.mktoAsterix {
+  float: left !important;
+  padding-right: 7.5px !important;
+}
+
+div.mktoAsterix {
+  float: left !important;
+  padding-right: 7.5px !important;
+}
+
+#mktoForm_2265 select,
+#mktoForm_2253 select,
+#mktoForm_2964 select {
+  padding: 12px 15px 15px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 16px;
+  color: #00274c;
+  transition: 0.25s;
+  width: 500px !important;
+}
+
+span.mktoButtonWrap {
+  margin-left: 0px !important;
+}
+
+#mktoForm_2265 textarea,
+#mktoForm_2253 textarea,
+#mktoForm_2964 textarea {
+  width: 100% !important;
+  height: 250px;
+}
+
+/***** END OVERRIDES *****/
+
+.contact-us-image {
+  width: 100%;
+}
+
+.takinamao-email-form {
+  box-shadow: none;
+}
+
+.takinamao-email-form .collapsible-header {
+  color: #3a6e8f;
+}
+
+.takinamao-email-form .collapsible-body {
+  background-color: #f3f3f3;
+}
+
+.takinamao-email-form .collapsible-header.active {
+  background-color: #3a6e8f;
+  color: #ffffff;
+}
+
+.takinamao-email-form li.active {
+  background-image: none;
+  color: #3a6e8f;
+}
+
+/***** INPUTS *****/
+
+.input-full-width {
+  width: 100%;
+}
+
+.takinamao-email-form input::-webkit-input-placeholder {
+  color: #00274c;
+}
+
+.takinamao-email-form input:focus::-webkit-input-placeholder {
+  color: #cccccc;
+}
+
+/* Firefox < 19 */
+.takinamao-email-form input:-moz-placeholder {
+  color: #00274c;
+}
+.takinamao-email-form input:focus:-moz-placeholder {
+  color: #cccccc;
+}
+
+/* Firefox > 19 */
+.takinamao-email-form input::-moz-placeholder {
+  color: #00274c;
+}
+.takinamao-email-form input:focus::-moz-placeholder {
+  color: #cccccc;
+}
+
+/* Internet Explorer 10 */
+.takinamao-email-form input:-ms-input-placeholder {
+  color: #00274c;
+}
+.takinamao-email-form input:focus:-ms-input-placeholder {
+  color: #cccccc;
+}
+
+/****** SELECTS ******/
+
+.select-dropdown {
+  /*li.disabled span */
+  color: #00274c;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+.takinamao-email-form ul.dropdown-content.select-dropdown li span {
+  color: #00274c;
+}
+
+.takinamao-email-form ul.dropdown-content.select-dropdown li.disabled span {
+  color: #cccccc;
+}
+
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid #3a6e8f;
+  color: rgba(0, 39, 76, 0.5);
+}
+
+.form-select__email[type="text"]:focus {
+  border-bottom: 1px solid #3a6e8f;
+}
+
+.takinamao-email-form .select-wrapper input.select-dropdown {
+  background-color: white;
+  padding: 0 15px;
+  border: 1px solid #cccccc;
+}
+
+.takinamao-email-form span.caret {
+  padding-right: 15px;
+  z-index: 1;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+/******	TEXTAREAS ******/
+
+.takinamao-email-form textarea {
+  background-color: #ffffff;
+  color: #00274c;
+  height: 250px;
+}
+
+.takinamao-email-form textarea::-webkit-input-placeholder {
+  color: #cccccc;
+}
+
+.takinamao-email-form textarea:-moz-placeholder {
+  color: #cccccc;
+}
+
+/****** BUTTONS ******/
+
+.create-account-link:hover,
+.forgot-password-link:hover {
+  cursor: pointer;
+  color: #50b3cf;
+}
+
+.seeker {
+  padding: 15px 60px;
+}
+
+@media only screen and (max-width: 992px) {
+  .email-btn-mobile {
+    text-align: center;
+  }
+
+  .alt-login a {
+    margin-right: unset;
+  }
+
+  .create-account-link,
+  .forgot-password-link {
+    text-align: center;
+  }
+
+  #mktoForm_2265 input,
+  #mktoForm_2253 input,
+  #mktoForm_2964 input {
+    width: 200px !important;
+  }
+
+  #mktoForm_2265 label,
+  #mktoForm_2253 label,
+  #mktoForm_2964 label {
+    width: 200px !important;
+  }
+
+  #mktoForm_2265 select,
+  #mktoForm_2253 select,
+  #mktoForm_2964 select {
+    width: 200px !important;
+  }
+}
+
+.mktoField {
+  display: inline-block;
+}

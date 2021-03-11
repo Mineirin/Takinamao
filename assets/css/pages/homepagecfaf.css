@@ -1,0 +1,213 @@
+.homepage-header-container {
+  position: relative;
+  z-index: 1;
+}
+
+.homepage-header-container .takinamao-navy {
+  background-color: transparent;
+}
+
+.homepage-search-wrapper {
+  z-index: 0;
+  margin-top: -116px;
+  position: relative;
+  background-size: cover;
+  min-height: 100vh;
+  height: 80vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.homepage-search-wrapper:after {
+  border: 1px solid white;
+}
+
+.homepage-search-wrapper .homepage-search-content {
+  z-index: 5;
+}
+
+.homepage-search-wrapper .homepage-search-content .icon-scroll-hint,
+.mobile-header-scroll-hint {
+  font-size: 24pt;
+}
+
+.homepage-search-text {
+  margin: 100px 0;
+  flex-direction: column;
+}
+
+.homepage-search-content p {
+  color: #ffffff;
+  margin: 0;
+  flex-direction: column;
+}
+
+.homepage-search-wrapper:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(rgba(0, 39, 76, 0.95), rgba(0, 39, 76, 0.8));
+  flex-direction: column;
+}
+
+.form-input__homepage {
+  background: rgba(58, 110, 143, 0.6);
+  border: none;
+  border-bottom: 1px solid rgba(243, 243, 243, 0.4);
+  color: #f3f3f3;
+  margin-right: 10px;
+  width: 352px;
+}
+
+.form-input__homepage::-moz-placeholder,
+.form-input__homepage::-webkit-input-placeholder,
+.form-input__homepage::placeholder {
+  color: rgba(243, 243, 243, 0.8);
+}
+
+.form-input__homepage:focus {
+  border-bottom: 1px solid rgba(243, 243, 243, 1);
+  outline: 0;
+}
+
+.form-input__homepage:focus::-moz-placeholder,
+.form-input__homepage:focus::-webkit-input-placeholder,
+.form-input__homepage:focus::placeholder {
+  color: rgba(243, 243, 243, 0.5);
+}
+
+.homepage-search-button {
+  padding: 13px 30px;
+}
+
+.vertical-border {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-color: #b6dbe8;
+}
+
+.homepage-search-wrapper .relative-pos {
+  display: inline-block;
+}
+
+div.autocomplete-suggestions {
+  position: absolute;
+  margin-top: 2px;
+  border-bottom: none;
+  background: rgba(58, 110, 143, 1);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+div.autocomplete-suggestion {
+  color: #f3f3f3;
+  padding: 15px;
+  border-bottom: 1px solid rgba(243, 243, 243, 0.4);
+}
+
+div.autocomplete-suggestion:hover,
+div.autocomplete-suggestion:active,
+div.autocomplete-suggestion.autocomplete-selected {
+  background: rgb(0, 39, 76);
+}
+
+@media only screen and (min-width: 993px) {
+  .homepage-search-wrapper {
+    min-height: 800px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header {
+    padding: 0;
+  }
+
+  .homepage-search-wrapper .relative-pos {
+    display: block;
+  }
+
+  .homepage-header-container {
+    height: 0;
+  }
+
+  .homepage-search-content {
+    padding: 0 15px;
+  }
+
+  .homepage-search-content h1.hero-header {
+    margin-top: 0;
+    font-size: 32px;
+  }
+
+  .homepage-search-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .homepage-mobile-cta {
+    margin: 60px 0;
+    color: #b6dbe8;
+  }
+
+  .homepage-mobile-cta li {
+    display: inline-block;
+    padding: 5px 30px;
+  }
+
+  .homepage-mobile-cta li.divider {
+    padding: 0;
+    box-sizing: border-box;
+    height: 26px;
+    border: 1px solid #f3f3f3;
+    margin-bottom: -7px;
+  }
+
+  .homepage-mobile-cta hr {
+    width: 50px;
+  }
+
+  .mobile-logo {
+    width: 140px;
+    margin: 30px 0 60px;
+  }
+
+  .form-input__homepage {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .homepage-search-wrapper {
+    margin-top: 0;
+  }
+
+  .vertical-border {
+    border: none;
+  }
+
+  .homepage-hide {
+    display: none;
+  }
+
+  .show-homepage {
+    display: block !important;
+    font-size: 20px !important;
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-bottom: -1em;
+  }
+}
