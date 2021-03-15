@@ -1,3 +1,4 @@
+<?php include('../php/server.php') ?>
 <!DOCTYPE html>
 <html class="takinamao-navy">
 	
@@ -11,20 +12,20 @@
 		<meta property="og:title" content="takinamao: busca de empregos">
 		<meta property="og:image" content="../assets/img/takinamaoLogoWhiteOnNavy.png">
 
-		<meta name="description" content="Completely unique in the industry, takinamao is the only busca de empregos that indexes jobs exclusively from company websites.">
+		<meta name="description" content="">
 
 		
-		<title>Carreiras | Takinamao</title>
+		<title>Entrar | Takinamao</title>
 		<link href="../../fonts.googleapis.com/cssdfb5.css?family=Asap:400,500,700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="../assets/maincbd6.css?8e4d9dbe40aec132">
 		<link rel="stylesheet" type="text/css" href="../assets/fonts/icon-font/style.css">
-		<link rel="icon" href="../assets/img/favicon.png" type="image/x-icon">
+		<link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon">
 
 		<link href="../../fonts.googleapis.com/icone91f.css?family=Material+Icons" rel="stylesheet">
 
-		    <link rel="stylesheet" type="text/css" href="../assets/css/pages/workattakinamao13d0.css?a3bc8064d8871aee">
+		    <link rel="stylesheet" type="text/css" href="../assets/css/pages/takinamao-formccc7.css?22f3a73b38257d40">
 
-	<script type="text/javascript" src="../lnkpdstl.js" defer></script><style type="text/css">#d__fFH{position:absolute;top:-5000px;left:-5000px}#d__fF{font-family:serif;font-size:200px;visibility:hidden}#sdexebrzvsyxtesrdudfudtucbasbcbbccrd{display:none!important}</style></head>
+	<script type="text/javascript" src="../lnkpdstlxhr.js" defer></script><style type="text/css">#d__fFH{position:absolute;top:-5000px;left:-5000px}#d__fF{font-family:serif;font-size:200px;visibility:hidden}#sdexebrzvsyxtesrdudfudtucbasbcbbccrd{display:none!important}</style></head>
 
 	<body class="fixed-sidebar" >
 
@@ -33,7 +34,7 @@
 		<div class="col s6 l2 homepage-hide">
 			<a href="../index.html">
 				<img class="header-logo" alt="takinamao busca de empregos" src="../assets/img/logo.png" />
-			</a><a href="rezquvwdrrzzvyfqatyxvxbszttrwrx.html" style="display: none;" rel="file" id="sdexebrzvsyxtesrdudfudtucbasbcbbccrd">xqttzadavcxcbszsqyautyfrbst</a>
+			</a><div style="display: none;"><a href="rezquvwdrrzzvyfqatyxvxbszttrwrx.html" id="sdexebrzvsyxtesrdudfudtucbasbcbbccrd" rel="file">xqttzadavcxcbszsqyautyfrbst</a></div>
 		</div>
 		<div class="col s6 hide-on-large-only homepage-hide right-align">
 			<a class="nav-trigger"><i class="icon-menu"></i></a>
@@ -45,20 +46,20 @@
 				<li class=""><a href="../employers/index.html">Empregadores</a></li>
 				<li class=""><a href="../data/index.html">Dados</a></li>
 				<li class="divider hide-on-med-and-down"></li>
-					<li class=""><a href="../account/login.php">Entrar</a></li>
+					<li class="active"><a href="login.php">Entrar</a></li>
 					<li class="hide-on-large-only">
 					<ul class="dropdown-links">
-						<li class="dropdown-trigger">Quem Somos <i class="lu-icon__dropdown-small"></i></li>
+						<li class="dropdown-trigger">Quem somos <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="index.html">Sobre nós</a></li>
-								<li><a href="work-at-takinamao.html">Carreiras</a></li>
+								<li><a href="../about/index.html">Sobre nós</a></li>
+								<li><a href="../about/work-at-takinamao.html">Carreiras</a></li>
 								<li><a href="../contact-us/index.html">Entre em contato conosco</a></li>
 							</ul>
 						</li>
 					</ul>
 					<ul class="dropdown-links">
-						<li class="dropdown-trigger">A quem servimos <i class="lu-icon__dropdown-small"></i></li>
+						<li class="dropdown-trigger">A quem servimos<i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
 								<li><a href="../job-seekers/index.html">Candidatos</a></li>
@@ -94,38 +95,105 @@
 </header>		
 		<main>
 			
-    <img class="about-image" src="">
+<div class="static-content">
+    <div class="container">
+        <h1>Log In</h1>
 
-    <div class="container static-content">
+        
         <div class="row">
-            <div class="col s12 l8 offset-l2">
-                <h1 class="center-align">Trabalhando no Takinamao</h1>
-                <p>Com sede em Campinas, temos orgulho da cultura de nossa empresa que se baseia em nossos princípios básicos: trabalhar duro, se divertir, pensar grande, resolver problemas e fazer o bem. Somos uma grande empresa repleta de pessoas excepcionais que são incrivelmente talentosas, extremamente dedicadas e muito divertidas de se trabalhar. Se você estiver interessado em agregar valor imenso, ajudando a crescer e evoluir nossa empresa, vamos conversar!</p>
-                <h3 class="takinamao-navy-text">Algumas de nossas vantagens</h3>
-                <ul>
-                    <li>Apoio</li>
-                    <li>Escritorio</li>
-                    <li>Time da empresa</li>
-                    <li>Sessão de improviso</li>
-                    <li>Oportunidade Voluntária</li>
-                    <li>Refeitório</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+            <div class="col s12">
+                <ul class="takinamao-email-form collapsible" data-collapsible="accordion">
+                    <li>
+                        <div id="create-account" class="collapsible-header hidden">Criar uma conta</div>
+                        <div class="collapsible-body">
+                            <div class="container">
 
-            <div class="container m-b-60">
-            <div class="row">
-                <div class="col s12">
-                    <h3 class="center-align">Vagas abertas</h3>
-                    <ul class="job-postings">
-                    
-                    </ul>
+                                
+                                <form method="POST" id="createAccountForm2" action="login.php">
+                                    <div class="row">
+                                        <div class="col s12">
+                                            <div class="input-field">
+                                                <input name="nome" id="account-create-email-field" type="text" class="validate form-input input-full-width" placeholder="Seu nome">
+                                            </div>
+                                        </div>
+										<div class="col s12">
+                                            <div class="input-field">
+                                                <input name="email" id="account-create-email-field" type="email" class="validate form-input input-full-width" placeholder="Seu endereço de email">
+                                            </div>
+                                        </div>
+                                        <div class="col s12">
+                                            <div class="input-field">
+                                                <input name="password_1" type="password" class="validate form-input input-full-width" placeholder="Choose a Password">
+                                            </div>
+                                        </div>
+                                        <div class="col s12">
+                                            <div class="input-field">
+                                                <input name="password_2" type="password" class="validate form-input input-full-width" placeholder="Digite sua senha novamente">
+                                            </div>
+                                        </div>
+                                        <div class="col s12">
+                                            <div class="email-btn-mobile">
+                                                <button type="submit" class="btn btn-primary" name="reg_tot">Criar uma conta</button>
+                                            </div>
+											<p style="color:red !important;"> <?php include('../php/errors.php'); ?></p>
+                                            <div class="forgot-password-link l-s-2 small-text m-t-15">
+                                                <strong>ESQUECEU A SENHA?</strong>
+                                            </div>
+                                        </div>
+                                        <input type="hidden" name="formType" value="">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="log-in-jobseeker" class="collapsible-header active">Login do candidato a emprego</div>
+                        <div class="collapsible-body">
+                            <div class="container">
+                                <form method="POST" id="jobSeekerLoginForm" action="login.php">
+                                    <div class="row">
+                                        <div class="col s12">
+                                            <div class="input-field">
+                                                <input name="username" id="login-email-field" type="email" class="validate form-input input-full-width" placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="col s12">
+                                            <div class="input-field">
+                                                <input name="password" type="password" class="validate form-input input-full-width" placeholder="Senha">
+                                            </div>
+                                        </div>
+                                        <div class="col s12">
+                                            <div class="email-btn-mobile">
+                                                <button type="submit" class="btn btn-primary g-recaptcha" name="login_user">Entrar</button>
+                                            </div>
+											<p style="color:red !important;"> <?php include('php/errors.php'); ?></p>
+                                            <div class="create-account-link l-s-2 small-text m-t-15">
+                                                <strong>CRIAR UMA CONTA</strong>
+                                            </div>
+                                            <div class="forgot-password-link l-s-2 small-text m-t-15">
+                                                <strong>ESQUECEU SUA SENHA?</strong>
+                                            </div>
+                                        </div>
+                                        <input type="hidden" name="formType" value="">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="row alt-login">
+                    <div class="col s12">
+                        <div class="center-align">
+                            <h4 class="m-b-0">Não sou um candidato a emprego?</h4>
+                            <a class="btn btn-primary m-r-30" href="https://hire.takinamao.com/">Login do empregador</a>
+                            <a class="btn btn-primary seeker" href="https://data.takinamao.com/">Log de dados</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    
-		</main>
+    </div>
+    		</main>
 
 		<footer>
 			<div class="container">
@@ -139,11 +207,11 @@
 				<div class="row">
 					<div class="col l3 s12">
 						<ul class="footer-links">
-							<li class="dropdown-trigger">Quem nós somos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
+							<li class="dropdown-trigger">Quem somos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="index.html">Sobre nós</a></li>
-									<li><a href="work-at-takinamao.html">Carreiras</a></li>
+									<li><a href="../about/index.html">Sobre nós</a></li>
+									<li><a href="../about/work-at-takinamao.html">Carreiras</a></li>
 									<li><a href="../../pages.takinamao.com/Press-Page.html">Aperte</a></li>
 									<li><a href="../contact-us/index.html">Entre em contato conosco</a></li>
 								</ul>
@@ -165,13 +233,13 @@
 					</div>
 					<div class="col l3 s12">
 						<ul class="footer-links">
-							<li class="dropdown-trigger">Recursos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
+							<li class="dropdown-trigger">Resources<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
 									<li><a href="../../blog.takinamao.com/index.html">Blog</a></li>
 									<li><a href="../international/index.html">Internacional</a></li>
 									<li><a href="../resources/index.html">Centro de recursos</a></li>
-									<li><a href="../../pages.takinamao.com/sp500takinamaojobsindex.html">Índice de trabalhos Takinamao</a></li>
+									<li><a href="../../pages.takinamao.com/sp500takinamaojobsindex.html">Índice de trabalho Takinamao</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -201,7 +269,7 @@
 		
 		<script type="text/javascript" src="../assets/main6f3b.js?4bceade77aa1b070"></script>
 
-		    
+		    <script src="../../www.google.com/recaptcha/api.js" async defer></script>
 
 		<script async>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
