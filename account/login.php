@@ -116,7 +116,7 @@
                                                 <input name="nome" id="account-create-email-field" type="text" class="validate form-input input-full-width" placeholder="Seu nome">
                                             </div>
                                         </div>
-										<div class="col s12">
+						<div class="col s12">
                                             <div class="input-field">
                                                 <input name="email" id="account-create-email-field" type="email" class="validate form-input input-full-width" placeholder="Seu endereço de email">
                                             </div>
@@ -135,7 +135,7 @@
                                             <div class="email-btn-mobile">
                                                 <button type="submit" class="btn btn-primary" name="reg_tot">Criar uma conta</button>
                                             </div>
-											<p style="color:red !important;"> <?php include('../php/errors.php'); ?></p>
+						<p style="color:red !important;"> <?php include('../php/errors.php'); ?></p>
                                             <div class="forgot-password-link l-s-2 small-text m-t-15">
                                                 <strong>ESQUECEU A SENHA?</strong>
                                             </div>
@@ -185,8 +185,7 @@
                     <div class="col s12">
                         <div class="center-align">
                             <h4 class="m-b-0">Não sou um candidato a emprego?</h4>
-                            <a class="btn btn-primary m-r-30" href="https://hire.takinamao.com/">Login do empregador</a>
-                            <a class="btn btn-primary seeker" href="https://data.takinamao.com/">Log de dados</a>
+                            <a class="btn btn-primary m-r-30" href="../hire.takinamao.com/user/login.html">Login do empregador</a>
                         </div>
                     </div>
                 </div>
