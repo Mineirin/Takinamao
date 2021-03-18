@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Entrar - Empregadores</title>
+
+        <link href="../assets/bower_components/packagefrontend/CSS/universal.min.css" rel="stylesheet">
+        <link href="../assets/app/pages/global.css" rel="stylesheet">
+        <link rel="icon" href="../assets/img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+        <script src="../assets/bower_components/packagefrontend/JS/universal.min.js"></script>
+
+        
+    </head>
+
+    <body  class="fixed-sidebar md-skin">
+        <div id="wrapper">
+            <nav class="navbar-default navbar-static-side" role="navigation">
+                <div class="sidebar-collapse">
+                    <ul class="nav jde-main-nav" id="side-menu">
+                        <li>
+                            <a href="/Takinamao/www.takinamao.com/"><i class="fa fa-home"></i><span class="nav-label">Home</span></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+            <div id="page-wrapper" class="gray-bg dashbard-1">
+                <div class="row border-bottom">
+                    <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                        <ul class="nav navbar-top-links navbar-right">
+                            <li>
+                                <span class="m-r-sm text-muted welcome-message">Takinamao.com Painel de controle</span>
+                            </li>
+                            <li>
+                                <a href="login.html">
+                                    <i class="fa fa-sign-out"></i> Entrar
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                
+            <h1>
+            Entrar
+        </h1>
+
+        
+        
+        <form class="form-horizontal" method="POST" action="https://hire.takinamao.com/user/login_check">
+
+            <div class="form-group">
+                <label class="col-sm-1 control-label" for="inputEmail">Email</label>
+                <div class="col-sm-5">
+                    <input class="form-control" name="_username" type="text" id="inputEmail" placeholder="Email" required value="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-1 control-label" for="inputPassword">Senha</label>
+                <div class="col-sm-5">
+                    <input class="form-control" name="_password" type="password" id="inputPassword" required placeholder="Senha">
+                </div>
+            </div>
+
+                            <div class="form-group">
+                    <div class="col-sm-5 col-sm-offset-1 checkbox">
+                        <label>
+                            <input type="checkbox" name="_remember_me" value="true" checked> Lembre-se de mim neste computador
+                        </label>
+                    </div>
+                </div>
+            
+            <div class="form-group">
+                <div class="col-sm-5 col-sm-offset-1">
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                                            <a style="margin-left: 10px;" href="forgot-password.html">Esqueceu sua senha?</a>
+                                    </div>
+            </div>
+
+        </form>
+
+    
+            </div>
+        </div>
+
+        <!-- Global Scripts -->
+        <script src="../assets/app/pages/global.js"></script>
+        
+        <script>
+            var isExternal = false;
+                        
+            $(document).ready(function() {
+                
+                            })
+
+        </script>
+
+                            
+    </body>
+</html>
+
+
