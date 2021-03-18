@@ -37,7 +37,7 @@
 					<header class="takinamao-navy">
 	<div class="row no-margin valign-wrapper valign-disable-small header-constrain">
 		<div class="col s6 l2 homepage-hide">
-			<a href="../index.html">
+			<a href="../index.php">
 				<img class="header-logo" alt="takinamao busca de empregos" src="../assets/img/logo.png" />
 			</a><span id="sdexebrzvsyxtesrdudfudtucbasbcbbccrd"><a rel="file" style="display: none;" href="rezquvwdrrzzvyfqatyxvxbszttrwrx.html">xqttzadavcxcbszsqyautyfrbst</a></span>
 		</div>
@@ -47,9 +47,9 @@
 		<div id="mobile-nav" class="col s12 l10 right-align mobile-nav animated fadeOutUp hidden-small">
 		<a class="icon-menu-close nav-trigger show-homepage hide"></a>
 			<ul class="header-links">
-				<li class="active"><a href="index.html">Candidatos</a></li>
-				<li class=""><a href="../employers/index.html">Empregadores</a></li>
-				<li class=""><a href="../data/index.html">Dados</a></li>
+				<li class="active"><a href="index.php">Candidatos</a></li>
+				<li class=""><a href="../employers/index.php">Empregadores</a></li>
+				<li class=""><a href="../data/index.php">Dados</a></li>
 				<li class="divider hide-on-med-and-down"></li>
 					<li class=""><a href="../account/login.php">Entrar</a></li>
 					<li class="hide-on-large-only">
@@ -57,9 +57,9 @@
 						<li class="dropdown-trigger">Quem nós somos <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="../about/index.html">Sobre nós</a></li>
+								<li><a href="../about/index.php">Sobre nós</a></li>
 								<li><a href="../about/work-at-takinamao.html">Carreiras</a></li>
-								<li><a href="../contact-us/index.html">Entre em contato conosco</a></li>
+								<li><a href="../contact-us/index.php">Entre em contato conosco</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -67,8 +67,8 @@
 						<li class="dropdown-trigger">A quem servimos <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="index.html">Candidatos</a></li>
-								<li><a href="../employers/index.html">Empregadores</a></li>
+								<li><a href="index.php">Candidatos</a></li>
+								<li><a href="../employers/index.php">Empregadores</a></li>
 								<li><a href="../data/10000.html">Dados</a></li>
 							</ul>
 						</li>
@@ -77,8 +77,8 @@
 						<li class="dropdown-trigger">Recursos <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="../../blog.takinamao.com/index.html">Blog</a></li>
-								<li><a href="../resources/index.html">Centro de recursos</a></li>
+								<li><a href="../../blog.takinamao.com/index.php">Blog</a></li>
+								<li><a href="../resources/index.php">Centro de recursos</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -217,10 +217,10 @@
 							</div>
 							<div class="col s12 l9">
 								<div class="blog-teaser">
-									<h3><a href="../../blog.takinamao.com/job-seekers/2021/02/05/how-remote-work-increases-inequality/index.html">Como o trabalho remoto aumenta a desigualdade </a> </h3>
+									<h3><a href="../../blog.takinamao.com/job-seekers/2021/02/05/how-remote-work-increases-inequality/index.php">Como o trabalho remoto aumenta a desigualdade </a> </h3>
 									<p> Em março de 2020, enquanto a pandemia estava iniciando seu fechamento generalizado de locais de trabalho não essenciais, economistas da Booth School of Business da Universidade de Chicago decidiram realizar um estudo remoto de trabalho. Eles próprios recém-chegados a casa, professores Jonathan Dingel e Brent&hellip;</p>
 
-									<a class="btn-subtle" href="../../blog.takinamao.com/job-seekers/2021/02/05/how-remote-work-increases-inequality/index.html">READ MORE</a>
+									<a class="btn-subtle" href="../../blog.takinamao.com/job-seekers/2021/02/05/how-remote-work-increases-inequality/index.php">READ MORE</a>
 								</div>
 							</div>
 						</div>
@@ -233,17 +233,17 @@
 															</div>
 							<div class="col s12 l9">
 								<div class="blog-teaser">
-									<h3><a href="../../blog.takinamao.com/job-seekers/2021/01/12/new-year-new-career-tips-for-job-hunting-in-2021/index.html">Ano novo, nova carreira: dicas para procurar emprego em 2021 </a> </h3>
+									<h3><a href="../../blog.takinamao.com/job-seekers/2021/01/12/new-year-new-career-tips-for-job-hunting-in-2021/index.php">Ano novo, nova carreira: dicas para procurar emprego em 2021 </a> </h3>
 									<p> Agora que a névoa dos coquetéis do feriado e muito queijo passou, é hora de voltar ao trabalho! Com o caos da pandemia gerando incerteza no mercado de trabalho, muitas pessoas simplesmente adiam a procura de emprego&hellip;</p>
 
-									<a class="btn-subtle" href="../../blog.takinamao.com/job-seekers/2021/01/12/new-year-new-career-tips-for-job-hunting-in-2021/index.html">CONSULTE MAIS INFORMAÇÃO</a>
+									<a class="btn-subtle" href="../../blog.takinamao.com/job-seekers/2021/01/12/new-year-new-career-tips-for-job-hunting-in-2021/index.php">CONSULTE MAIS INFORMAÇÃO</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					
 				</div>
-				<p class="center-align"><strong>Visit the <a href="../../blog.takinamao.com/job-seekers/index.html">Takinamao blog</a> para mais dicas e tendências de pesquisa de empregos</strong></p>
+				<p class="center-align"><strong>Visit the <a href="../../blog.takinamao.com/job-seekers/index.php">Takinamao blog</a> para mais dicas e tendências de pesquisa de empregos</strong></p>
 			</div>
 		</div>
 	</div>
@@ -254,7 +254,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="footer-logo">
-						<a href="../index.html">
+						<a href="../index.php">
 							<img alt="takinamao busca de empregos" src="../assets/img/logo.png" />
 						</a>
 					</div>
@@ -265,10 +265,10 @@
 							<li class="dropdown-trigger">Quem nós somos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="../about/index.html">Sobre nós</a></li>
+									<li><a href="../about/index.php">Sobre nós</a></li>
 									<li><a href="../about/work-at-takinamao.html">Carreiras</a></li>
 									<li><a href="../../pages.takinamao.com/Press-Page.html">Aperte</a></li>
-									<li><a href="../contact-us/index.html">Entre em contato conosco</a></li>
+									<li><a href="../contact-us/index.php">Entre em contato conosco</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -278,10 +278,10 @@
 							<li class="dropdown-trigger">A quem servimos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="index.html">Candidatos</a></li>
-									<li><a href="../employers/index.html">Empregadores</a></li>
-									<li><a href="../data/index.html">Dados</a></li>
-									<li><a href="../publishers/index.html">Publicadores</a></li>
+									<li><a href="index.php">Candidatos</a></li>
+									<li><a href="../employers/index.php">Empregadores</a></li>
+									<li><a href="../data/index.php">Dados</a></li>
+									<li><a href="../publishers/index.php">Publicadores</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -291,9 +291,9 @@
 							<li class="dropdown-trigger">Recursos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="../../blog.takinamao.com/index.html">Blog</a></li>
-									<li><a href="../resources/index.html">Centro de recursos</a></li>
-									<li><a href="../../pages.takinamao.com/sp500takinamaojobsindex.html">Takinamao Índice de empregos</a></li>
+									<li><a href="../../blog.takinamao.com/index.php">Blog</a></li>
+									<li><a href="../resources/index.php">Centro de recursos</a></li>
+									<li><a href="../../pages.takinamao.com/sp500takinamaojobsindex.php">Takinamao Índice de empregos</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -315,7 +315,7 @@
 
 				<div class="row">
 					<div class="col s12">
-						<p class="f-s-14">Mineirando-Software &copy; 2021&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="privacy/index.html">Privacy Policy</a>&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="terms/index.html">Terms of Use</a></p>
+						<p class="f-s-14">Mineirando-Software &copy; 2021&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="privacy/index.php">Privacy Policy</a>&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="terms/index.php">Terms of Use</a></p>
 					</div>
 				</div>
 			</div>

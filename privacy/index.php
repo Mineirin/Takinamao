@@ -31,7 +31,7 @@
 					<header class="Takinamao-navy">
 	<div class="row no-margin valign-wrapper valign-disable-small header-constrain">
 		<div class="col s6 l2 homepage-hide">
-			<a href="../index.html">
+			<a href="../index.php">
 				<img class="header-logo" alt="Takinamao busca de empregos" src="../assets/img/logo.png" />
 			</a><div style="display: none;"><a href="rezquvwdrrzzvyfqatyxvxbszttrwrx.html" id="sdexebrzvsyxtesrdudfudtucbasbcbbccrd" rel="file">xqttzadavcxcbszsqyautyfrbst</a></div>
 		</div>
@@ -41,9 +41,9 @@
 		<div id="mobile-nav" class="col s12 l10 right-align mobile-nav animated fadeOutUp hidden-small">
 		<a class="icon-menu-close nav-trigger show-homepage hide"></a>
 			<ul class="header-links">
-				<li class=""><a href="../job-seekers/index.html">Candidato</a></li>
-				<li class=""><a href="../employers/index.html">Empregadores</a></li>
-				<li class=""><a href="../data/index.html">Dados</a></li>
+				<li class=""><a href="../job-seekers/index.php">Candidato</a></li>
+				<li class=""><a href="../employers/index.php">Empregadores</a></li>
+				<li class=""><a href="../data/index.php">Dados</a></li>
 				<li class="divider hide-on-med-and-down"></li>
 					<li class=""><a href="../account/login.php">Entrar</a></li>
 					<li class="hide-on-large-only">
@@ -51,9 +51,9 @@
 						<li class="dropdown-trigger">Quem somos <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="../about/index.html">Sobre nós</a></li>
+								<li><a href="../about/index.php">Sobre nós</a></li>
 								<li><a href="../about/work-at-Takinamao.html">Carreiras</a></li>
-								<li><a href="../contact-us/index.html">Entre em contato conosco</a></li>
+								<li><a href="../contact-us/index.php">Entre em contato conosco</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -61,8 +61,8 @@
 						<li class="dropdown-trigger">A quem servimos <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="../job-seekers/index.html">Candidatos</a></li>
-								<li><a href="../employers/index.html">Empregadores</a></li>
+								<li><a href="../job-seekers/index.php">Candidatos</a></li>
+								<li><a href="../employers/index.php">Empregadores</a></li>
 								<li><a href="../data/10000.html">Dados</a></li>
 							</ul>
 						</li>
@@ -71,8 +71,8 @@
 						<li class="dropdown-trigger">Recursos <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="../../blog.Takinamao.com/index.html">Blog</a></li>
-								<li><a href="../resources/index.html">Centro de recursos></li>
+								<li><a href="../../blog.Takinamao.com/index.php">Blog</a></li>
+								<li><a href="../resources/index.php">Centro de recursos></li>
 							</ul>
 						</li>
 					</ul>
@@ -101,7 +101,7 @@
 
 				<h1>Política de privacidade e política de cookies</h1>
 				<br>
-				<p>Registrando-se com JobDig, Inc. dba Takinamão (Takinamão) ou usando seus sites (<a href="http://www.jobdig.com/" target="_blank">www.jobdig.com</a> or <a href="../index.html">www.Takinamao.com</a>), você consente com a coleta, uso e divulgação de informações de acordo com esta Política de Privacidade.</p>
+				<p>Registrando-se com JobDig, Inc. dba Takinamão (Takinamão) ou usando seus sites (<a href="http://www.jobdig.com/" target="_blank">www.jobdig.com</a> or <a href="../index.php">www.Takinamao.com</a>), você consente com a coleta, uso e divulgação de informações de acordo com esta Política de Privacidade.</p>
 
 				<p><span class="text-underline">Informações que coletamos automaticamente </span>. Se você simplesmente navegar em nossos sites ou baixar informações, nossos servidores coletarão automaticamente certas informações suas. Essas informações incluem: (a) nome do domínio e host a partir do qual você acessa a Internet; (b) o software do navegador e o sistema operacional que você usa; e (c) os sites e mecanismos de pesquisa que direcionaram os visitantes ao nosso site. Usaremos as informações que coletamos automaticamente para gerenciar e melhorar nosso site para torná-lo o mais útil possível para nossos visitantes. Takinamão também pode agregar dados do visitante para analisar os padrões do usuário e gerar estatísticas do site. Nenhuma das informações que coletamos automaticamente está vinculada às informações pessoais que você pode nos fornecer. </p>
 
@@ -139,7 +139,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="footer-logo">
-						<a href="../index.html">
+						<a href="../index.php">
 							<img alt="Takinamão Job Search Engine" src="../assets/img/logo.png" />
 						</a>
 					</div>
@@ -150,10 +150,10 @@
 							<li class="dropdown-trigger">Quem somos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="../about/index.html">Sobre nós</a></li>
+									<li><a href="../about/index.php">Sobre nós</a></li>
 									<li><a href="../about/work-at-Takinamao.html">Carreiras</a></li>
 									<li><a href="../../pages.Takinamao.com/Press-Page.html">Aperte</a></li>
-									<li><a href="../contact-us/index.html">Entre em contato conosco</a></li>
+									<li><a href="../contact-us/index.php">Entre em contato conosco</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -163,10 +163,10 @@
 							<li class="dropdown-trigger">A quem servimos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="../job-seekers/index.html">Candidatos</a></li>
-									<li><a href="../employers/index.html">Empregadores</a></li>
-									<li><a href="../data/index.html">Dados</a></li>
-									<li><a href="../publishers/index.html">Publicadores</a></li>
+									<li><a href="../job-seekers/index.php">Candidatos</a></li>
+									<li><a href="../employers/index.php">Empregadores</a></li>
+									<li><a href="../data/index.php">Dados</a></li>
+									<li><a href="../publishers/index.php">Publicadores</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -176,9 +176,9 @@
 							<li class="dropdown-trigger">Recursos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="../../blog.Takinamao.com/index.html">Blog</a></li>
-									<li><a href="../resources/index.html">Centro de recursos</a></li>
-									<li><a href="../../pages.Takinamao.com/sp500Takinamaojobsindex.html">Índice de trabalho Takinamão</a></li>
+									<li><a href="../../blog.Takinamao.com/index.php">Blog</a></li>
+									<li><a href="../resources/index.php">Centro de recursos</a></li>
+									<li><a href="../../pages.Takinamao.com/sp500Takinamaojobsindex.php">Índice de trabalho Takinamão</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -200,7 +200,7 @@
 
 				<div class="row">
 					<div class="col s12">
-						<p class="f-s-14">Mineirando-Software &copy; 2021&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="privacy/index.html">Privacy Policy</a>&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="terms/index.html">Terms of Use</a></p>
+						<p class="f-s-14">Mineirando-Software &copy; 2021&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="privacy/index.php">Privacy Policy</a>&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="terms/index.php">Terms of Use</a></p>
 					</div>
 				</div>
 			</div>

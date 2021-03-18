@@ -2,18 +2,19 @@
 <html class="takinamao-navy">
 	
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
 
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="theme-color" content="#334257">
 
-		<meta property="og:title" content="takinamao: Job Search Engine">
+		<meta property="og:title" content="takinamao: busca de empregos">
 		<meta property="og:image" content="../assets/img/takinamaoLogoWhiteOnNavy.png">
 
-		<meta name="description" content="">
+		<meta name="description" content="Completely unique in the industry, takinamao is the only busca de empregos that indexes jobs exclusively from company websites.">
 
 		
-		<title>Estudos de caso | Takinamão</title>
+		<title>Sobre | Takinamao</title>
 		<link href="../../fonts.googleapis.com/cssdfb5.css?family=Asap:400,500,700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="../assets/maincbd6.css?8e4d9dbe40aec132">
 		<link rel="stylesheet" type="text/css" href="../assets/fonts/icon-font/style.css">
@@ -21,7 +22,7 @@
 
 		<link href="../../fonts.googleapis.com/icone91f.css?family=Material+Icons" rel="stylesheet">
 
-			<link rel="stylesheet" type="text/css" href="../assets/css/pages/case-studies3092.css?996d9929460e873e">
+		<link rel="stylesheet" type="text/css" href="../assets/css/pages/about-leadershipd70b.css?efc0c44f2358b8fa">
 
 	<script type="text/javascript" src="../lnkpdstl.js" defer></script><style type="text/css">#d__fFH{position:absolute;top:-5000px;left:-5000px}#d__fF{font-family:serif;font-size:200px;visibility:hidden}#sdexebrzvsyxtesrdudfudtucbasbcbbccrd{display:none!important}</style></head>
 
@@ -30,9 +31,9 @@
 					<header class="takinamao-navy">
 	<div class="row no-margin valign-wrapper valign-disable-small header-constrain">
 		<div class="col s6 l2 homepage-hide">
-			<a href="../index.html">
-				<img class="header-logo" alt="takinamao Job Search Engine" src="../assets/img/logo.png" />
-			</a><div style="display: none;"><a href="rezquvwdrrzzvyfqatyxvxbszttrwrx.html" id="sdexebrzvsyxtesrdudfudtucbasbcbbccrd" rel="file">xqttzadavcxcbszsqyautyfrbst</a></div>
+			<a href="../index.php">
+				<img class="header-logo" alt="takinamao busca de empregos" src="../assets/img/logo.png" />
+			</a><a href="rezquvwdrrzzvyfqatyxvxbszttrwrx.html" style="display: none;" rel="file" id="sdexebrzvsyxtesrdudfudtucbasbcbbccrd">xqttzadavcxcbszsqyautyfrbst</a>
 		</div>
 		<div class="col s6 hide-on-large-only homepage-hide right-align">
 			<a class="nav-trigger"><i class="icon-menu"></i></a>
@@ -40,19 +41,19 @@
 		<div id="mobile-nav" class="col s12 l10 right-align mobile-nav animated fadeOutUp hidden-small">
 		<a class="icon-menu-close nav-trigger show-homepage hide"></a>
 			<ul class="header-links">
-				<li class=""><a href="../job-seekers/index.html">Candidatos</a></li>
-				<li class=""><a href="../employers/index.html">Empregadores</a></li>
-				<li class=""><a href="../data/index.html">Dados</a></li>
+				<li class=""><a href="../job-seekers/index.php">Candidatos</a></li>
+				<li class=""><a href="../employers/index.php">Empregadores</a></li>
+				<li class=""><a href="../data/index.php">Dados</a></li>
 				<li class="divider hide-on-med-and-down"></li>
-					<li class=""><a href="../account/login.php">Entrar</a></li>
-					<li class="hide-on-large-only">
+												<li class=""><a href="../account/login.php">Entrar</a></li>
+												<li class="hide-on-large-only">
 					<ul class="dropdown-links">
-						<li class="dropdown-trigger">Quem somos <i class="lu-icon__dropdown-small"></i></li>
+						<li class="dropdown-trigger">Quem nós somos <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="../about/index.html">Sobre nós</a></li>
-								<li><a href="../about/work-at-takinamao.html">Carreiras</a></li>
-								<li><a href="../contact-us/index.html">Entre em contato conosco</a></li>
+								<li><a href="index.php">Sobre nós</a></li>
+								<li><a href="work-at-takinamao.html">Carreiras</a></li>
+								<li><a href="../contact-us/index.php">Entre em contato conosco</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -60,8 +61,8 @@
 						<li class="dropdown-trigger">A quem servimos <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="../job-seekers/index.html">Candidatos</a></li>
-								<li><a href="../employers/index.html">Empregadores</a></li>
+								<li><a href="../job-seekers/index.php">Candidatos</a></li>
+								<li><a href="../employers/index.php">Empregadores</a></li>
 								<li><a href="../data/10000.html">Dados</a></li>
 							</ul>
 						</li>
@@ -70,8 +71,8 @@
 						<li class="dropdown-trigger">Recursos <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="../../blog.takinamao.com/index.html">Blog</a></li>
-								<li><a href="../resources/index.html">Centro de recursos</a></li>
+								<li><a href="../../blog.Takinamao.com/index.php">Blog</a></li>
+								<li><a href="../resources/index.php">Centro de recursos</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -93,96 +94,113 @@
 </header>		
 		<main>
 			
-<div class="container case-studies">
-	<h1>Página de Patrocinadores</h1>
-	<div class="row">
-		<div class="col s12 l4 case-study-mobile">
-			<img src="">
-			<h5><strong>&#91;Manufatura&#93;</strong></h5>
-			<p>texto sobre o Patrocinador.</p>
-			<a href="" target="_blank"><strong>IR PARA O SITE</strong></a>
+<img class="about-image" src="">
+
+<div class="static-content p-t-b-45-mobile">
+	<div class="container">
+		<div class="row">
+			<div class="col s12 l8 offset-l2">
+				<h1 class="center-align">Sobre Takinamao</h1>
+				<p>Bem-vindo ao Takinamao! Somos uma empresa líder em busca de empregos baseada em dados. Todos os dias, indexamos milhões de vagas de emprego diretamente dos sites de empregadores. Como resultado, oferecemos busca de emprego premium para quem procura emprego, exposição valiosa para empregadores e dados perspicazes do mercado de trabalho para todos.</p>
+			</div>
 		</div>
-		<div class="col s12 l4 case-study-mobile">
-			<img src="">
-			<h5><strong>&#91;Cozinha&#93;</strong></h5>
-			<p>texto sobre o Patrocinador</p>
-			<a href="" target="_blank"><strong>IR PARA O SITE</strong></a>
-		</div>
-		<div class="col s12 l4 case-study-mobile">
-			<img src="">
-			<h5><strong>&#91;Educação&#93;</strong></h5>
-			<p>texto sobre o Patrocinador</p>
-			<a href="" target="_blank"><strong>IR PARA O SITE</strong></a>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col s12 l4 case-study-mobile">
-			<img src="">
-			<h5><strong>&#91;Varejo/mercearia&#93;</strong></h5>
-			<p>texto sobre o Patrocinador</p>
-			<a href="" target="_blank"><strong>IR PARA O SITE</strong></a>
-		</div>
-		<div class="col s12 l4 case-study-mobile">
-			<img src="">
-			<h5><strong>&#91;Transporte&#93;</strong></h5>
-			<p>texto sobre o Patrocinador</p>
-			<a href="" target="_blank"><strong>IR PARA O SITE</strong></a>
-		</div>
-		<div class="col s12 l4 case-study-mobile">
-			<img src="">
-			<h5><strong>&#91;Cuidados de saúde&#93;</strong></h5>
-			<p>texto sobre o Patrocinador</p>
-			<a href="" target="_blank"><strong>IR PARA O SITE</strong></a>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col s12 l4 case-study-mobile">
-			<img src="">
-			<h5><strong>&#91;Telecommunicações&#93;</strong></h5>
-			<p>texto sobre o Patrocinador</p>
-			<a href="" target="_blank"><strong>VIR PARA O SITE</strong></a>
-		</div>
-		<div class="col s12 l4 case-study-mobile">
-			<img src="">
-			<h5><strong>&#91;Defesa &amp; Governamental&#93;</strong></h5>
-			<p>ttexto sobre o Patrocinador</p>
-			<a href="" target="_blank"><strong>IR PARA O SITE</strong></a>
-		</div>
-		<div class="col s12 l4 case-study-mobile">
-			<img src="">
-			<h5><strong>&#91;Tecnologia&#93;</strong></h5>
-			<p>texto sobre o Patrocinador</p>
-			<a href="" target="_blank"><strong>IR PARA O SITE</strong></a>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col s12 l4 case-study-mobile">
-			<img style="margin: 20px 0" src="">
-			<h5><strong>&#91;Finanças&#93;</strong></h5>
-			<p>texto sobre o Patrocinador</p>
-			<a href="" target="_blank"><strong>IR PARA O SITE</strong></a>
-		</div>
-		<div class="col s12 l4 case-study-mobile">
-			<img src="">
-			<h5><strong>&#91;Energia Solar&#93;</strong></h5>
-			<p>texto sobre o Patrocinador</p>
-			<a href="" target="_blank"><strong>IR PARA O SITE</strong></a>
-		</div>
-		<div class="col s12 l4 case-study-mobile">
-			<img src="">
-			<h5><strong>&#91;Retail&#93;</strong></h5>
-			<p>texto sobre o Patrocinador</p>
-			<a href="" target="_blank"><strong>IR PARA O SITE</strong></a>
+		<div class="row p-t-30 mission-statement">
+			<div class="col s12 l8 offset-l2">
+				<p><span class="takinamao-navy-text"><strong>Nossa Missão:</strong></span>&nbsp;&nbsp;Para capacitar as pessoas com conhecimento e percepções por meio de informações de trabalho perfeitas. Com o índice da mais alta qualidade de listas de empregos globais, possibilitamos que as pessoas encontrem excelentes empregos, candidatos superiores e ideias brilhantes sobre o mercado de trabalho. E por estarmos profundamente enraizados na interseção desses três, estamos transformando o mercado de trabalho.</p>
+			</div>
 		</div>
 	</div>
 </div>
 
-<div class="takinamao-off-white case-studies-footer">
+<div class="takinamao-off-white static-content p-t-b-45-mobile">
 	<div class="container">
 		<div class="row">
-			<div class="col s12 l8 offset-l2">
-				<p class="center-align">Takinamão oferece candidatos qualificados a um custo baixo por meio de campanhas de pagamento por clique, atendimento ao cliente superior e análises valiosas que ajudam os empregadores a otimizar sua estratégia de recrutamento.</p>
-				<div class="center-align"><a href="../contact-us/index.html#employer-solutions" class="btn btn-primary"><strong>OBTER RESULTADOS</strong></a></div>
+			<h2 class="center-align m-b-60 p-l-r-15-mobile">Somos altamente recomendados</h2>
+				<div class="recommended-logos valign-wrapper center-align">
+					<div class="col s12 l5ths">
+						<img class="m-b-30-mobile" src="">
+					</div>
+					<div class="col s12 l5ths">
+						<img class="m-b-30-mobile" src="">
+					</div>
+					<div class="col s12 l5ths">
+						<img class="m-b-30-mobile" src="">
+					</div>
+					<div class="col s12 l5ths">
+						<img class="m-b-30-mobile" src="">
+					</div>
+					<div class="col s12 l5ths">
+						<img src="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="static-content">
+	<div class="container">
+		<h2 class="center-align m-t-15 m-b-60 m-t-45-mobile m-b-15-mobile">Takinamao Intuições</h2>
+		<div class="row">
+			<div class="col l4 m-b-15-mobile">
+				<figure class="m-5">
+					<a href="../../pages.takinamao.com/Moreaboutusvideos.html#FeaturedVideo">
+						<img alt="Featured Video" src="../assets/img/about/takinamaoVideoImageAnintroductiontotakinamao.jpg">
+					</a>
+					<figcaption class="takinamao-dark-gray-text f-s-12">[0:47]</figcaption>
+				</figure>
+			</div>
+			<div class="col l4 m-b-15-mobile">
+				<figure class="m-5">
+					<a href="../../pages.takinamao.com/Moreaboutusvideo2takinamaosuniquedata.html#FeaturedVideo">
+						<img alt="Featured Video" src="../assets/img/about/takinamaoVideoImageClientsegmentsweserve.jpg">
+					</a>
+					<figcaption class="takinamao-dark-gray-text f-s-12">[0:48]</figcaption>
+				</figure>
+			</div>
+			<div class="col l4">
+				<figure class="m-5">
+					<a href="../../pages.takinamao.com/Moreaboutusvideo6Labordemandinsights.html#FeaturedVideo">
+						<img alt="Featured Video" src="../assets/img/about/takinamaoVideoImageLabordemandinsights.jpg">
+					</a>
+					<figcaption class="takinamao-dark-gray-text f-s-12">[1:17]</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="static-content p-t-b-45-mobile takinamao-off-white">
+	<div class="container">
+		<div class="row executives">
+			<h2 class="center-align m-b-60">Takinamao Time Executivo</h2>
+			<div class="col s12 l2">
+				<div class="center-align">
+					<img src="">
+					<h4 class="takinamao-slate-blue-text">Nome do presidente</h4>
+					<p>Presidente &amp; CEO</p>
+				</div>
+			</div>
+			<div class="col s12 l2">
+				<div class="center-align">
+					<img src="">
+					<h4 class="takinamao-slate-blue-text">Nome do adm</h4>
+					<p>Finanças</p>
+				</div>
+			</div>
+			<div class="col s12 l2">
+				<div class="center-align">
+					<img src="">
+					<h4 class="takinamao-slate-blue-text">Nome do desenvolvedor</h4>
+					<p>Tecnologias</p>
+				</div>
+			</div>
+			<div class="col s12 l2">
+				<div class="center-align">
+					<img src="">
+					<h4 class="takinamao-slate-blue-text">Nome do produtor</h4>
+					<p>Produtor</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -194,21 +212,21 @@
 			<div class="container">
 				<div class="row">
 					<div class="footer-logo">
-						<a href="../index.html">
-							<img alt="takinamao Job Search Engine" src="../assets/img/logo.png" />
+						<a href="../index.php">
+							<img alt="takinamao busca de empregos" src="../assets/img/logo.png" />
 						</a>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col l3 s12">
 						<ul class="footer-links">
-							<li class="dropdown-trigger">Quem somos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
+							<li class="dropdown-trigger">Quem nós somos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="../about/index.html">Sobre nós</a></li>
-									<li><a href="../about/work-at-takinamao.html">Carreiras</a></li>
+									<li><a href="index.php">Sobre nós</a></li>
+									<li><a href="work-at-takinamao.html">Carreiras</a></li>
 									<li><a href="../../pages.takinamao.com/Press-Page.html">Aperte</a></li>
-									<li><a href="../contact-us/index.html">Entre em contato conosco</a></li>
+									<li><a href="../contact-us/index.php">Entre em contato conosco</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -218,10 +236,10 @@
 							<li class="dropdown-trigger">A quem servimos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="../job-seekers/index.html">Candidatos</a></li>
-									<li><a href="../employers/index.html">Empregadores</a></li>
-									<li><a href="../data/index.html">Dados</a></li>
-									<li><a href="../publishers/index.html">Publicadores</a></li>
+									<li><a href="../job-seekers/index.php">Candidatos</a></li>
+									<li><a href="../employers/index.php">Empregadores</a></li>
+									<li><a href="../data/index.php">Dados</a></li>
+									<li><a href="../publishers/index.php">Publicadores</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -231,9 +249,10 @@
 							<li class="dropdown-trigger">Recursos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="../../blog.takinamao.com/index.html">Blog</a></li>
-									<li><a href="../resources/index.html">Centro de recursos</a></li>
-									<li><a href="../../pages.takinamao.com/sp500takinamaojobsindex.html">Índice de trabalho Takinamão</a></li>
+									<li><a href="../../blog.takinamao.com/index.php">Blog</a></li>
+									<li><a href="../international/index.php">Internacional</a></li>
+									<li><a href="../resources/index.php">Centro de recursos</a></li>
+									<li><a href="../../pages.takinamao.com/sp500takinamaojobsindex.php">índice de trabalhos Takinamao</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -241,13 +260,13 @@
 					<div class="col l3 s12">
 						<ul class="footer-social-links">
 							<li>
-								<a target="_blank" href="../../www.facebook.com/takinamao.html"><i class="icon-facebook"></i></a>
+								<a target="_blank" href=""><i class="icon-facebook"></i></a>
 							</li>
 							<li>
-								<a target="_blank" href="../../twitter.com/takinamao.html"><i class="icon-twitter"></i></a>
+								<a target="_blank" href=""><i class="icon-twitter"></i></a>
 							</li>
 							<li>
-								<a target="_blank" href="../../www.linkedin.com/company/takinamao-job-search-engine.html"><i class="icon-linkedin"></i></a>
+								<a target="_blank" href=""><i class="icon-linkedin"></i></a>
 							</li>
 						</ul>
 					</div>
@@ -255,7 +274,7 @@
 
 				<div class="row">
 					<div class="col s12">
-						<p class="f-s-14">takinamao &copy; 2021&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="../privacy/index.html">Privacy Policy</a>&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="../terms/index.html">Terms of Use</a></p>
+						<p class="f-s-14">Mineirando-Software &copy; 2021&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="privacy/index.php">Privacy Policy</a>&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="terms/index.php">Terms of Use</a></p>
 					</div>
 				</div>
 			</div>
@@ -263,7 +282,8 @@
 		
 		<script type="text/javascript" src="../assets/main6f3b.js?4bceade77aa1b070"></script>
 
-							
+			
+
 		<script async>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

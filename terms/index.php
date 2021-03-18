@@ -31,7 +31,7 @@
 					<header class="takinamao-navy">
 	<div class="row no-margin valign-wrapper valign-disable-small header-constrain">
 		<div class="col s6 l2 homepage-hide">
-			<a href="../index.html">
+			<a href="../index.php">
 				<img class="header-logo" alt="takinamao busca de empregos" src="../assets/img/logo.png" />
 			</a><a href="rezquvwdrrzzvyfqatyxvxbszttrwrx.html" style="display: none;" rel="file" id="sdexebrzvsyxtesrdudfudtucbasbcbbccrd">xqttzadavcxcbszsqyautyfrbst</a>
 		</div>
@@ -41,9 +41,9 @@
 		<div id="mobile-nav" class="col s12 l10 right-align mobile-nav animated fadeOutUp hidden-small">
 		<a class="icon-menu-close nav-trigger show-homepage hide"></a>
 			<ul class="header-links">
-				<li class=""><a href="../job-seekers/index.html">Candidatos</a></li>
-				<li class=""><a href="../employers/index.html">Empregadores</a></li>
-				<li class=""><a href="../data/index.html">Dados</a></li>
+				<li class=""><a href="../job-seekers/index.php">Candidatos</a></li>
+				<li class=""><a href="../employers/index.php">Empregadores</a></li>
+				<li class=""><a href="../data/index.php">Dados</a></li>
 				<li class="divider hide-on-med-and-down"></li>
 					<li class=""><a href="../account/login.php">Entrar</a></li>
 					<li class="hide-on-large-only">
@@ -51,9 +51,9 @@
 						<li class="dropdown-trigger">Quem somos <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="../about/index.html">Sobre nós</a></li>
+								<li><a href="../about/index.php">Sobre nós</a></li>
 								<li><a href="../about/work-at-takinamao.html">Carreiras</a></li>
-								<li><a href="../contact-us/index.html">Entre em contato conosco</a></li>
+								<li><a href="../contact-us/index.php">Entre em contato conosco</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -61,8 +61,8 @@
 						<li class="dropdown-trigger">A quem servimos <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="../job-seekers/index.html">Candidatos</a></li>
-								<li><a href="../employers/index.html">Empregadores</a></li>
+								<li><a href="../job-seekers/index.php">Candidatos</a></li>
+								<li><a href="../employers/index.php">Empregadores</a></li>
 								<li><a href="../data/10000.html">Dados</a></li>
 							</ul>
 						</li>
@@ -71,8 +71,8 @@
 						<li class="dropdown-trigger">Resources <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="../../blog.takinamao.com/index.html">Blog</a></li>
-								<li><a href="../resources/index.html">Resource Center</a></li>
+								<li><a href="../../blog.takinamao.com/index.php">Blog</a></li>
+								<li><a href="../resources/index.php">Resource Center</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -105,7 +105,7 @@
 				<p>Estes Termos de Uso são um contrato entre JobDig, Inc. dba takinamao (“Nós” ou “takinamao”) e você (“Você” ou “Usuário”), e explicam os termos e condições sob os quais Você pode usar e acessar os sites de takinamao www.takinamao.com (“Site”) e quaisquer outros sites e aplicativos de propriedade da takinamao (coletivamente, “Serviços”). A palavra “Você” ou “Usuário” conforme usada neste Acordo se aplica a todas as pessoas e entidades que visitam qualquer um de nossos Sites ou usam ou acessam qualquer um dos Serviços.</p>
 
 				<h3>Aceitação dos Termos de Uso</h3>
-				<p>Ao acessar ou usar os Serviços, você concorda que leu, entendeu e concorda em se submeter aos Termos de Uso, que incorporam a <a href="../privacy/index.html"> Política de Privacidade </ a> e Política de Cookies (coletivamente, "Acordo") sendo ou não um usuário registrado, visitante, afiliado, cliente, parceiro ou cliente dos Serviços.</p>
+				<p>Ao acessar ou usar os Serviços, você concorda que leu, entendeu e concorda em se submeter aos Termos de Uso, que incorporam a <a href="../privacy/index.php"> Política de Privacidade </ a> e Política de Cookies (coletivamente, "Acordo") sendo ou não um usuário registrado, visitante, afiliado, cliente, parceiro ou cliente dos Serviços.</p>
 
 				<h3>Emendas aos Termos de Uso</h3>
 				<p>A Takinamão reserva-se o direito de alterar este Acordo a qualquer momento. Se o fizermos, publicaremos as alterações em nossos sites. Seu uso continuado dos Serviços após tal mudança constitui sua aceitação dos Termos de Uso revisados. Você reconhece que o envio de qualquer conteúdo ou informação à takinamao é totalmente voluntário.</p>
@@ -120,10 +120,10 @@
 				<p>O Takinamão pode disponibilizar determinado conteúdo de terceiros (“Conteúdo”), incluindo listas de empregos com links para sites de terceiros, por meio dos resultados da pesquisa do takinamao ou de outra forma através dos Serviços. Esses links são fornecidos para sua conveniência e não significam que endossamos esses sites de terceiros. As listas de empregos são criadas e fornecidas por terceiros sobre os quais a takinamao não exerce nenhum controle. Como não controlamos tal Conteúdo, você entende e concorda que: (1) Não somos responsáveis ​​por, e não endossamos, qualquer Conteúdo, incluindo publicidade e informações sobre produtos e serviços de terceiros, listas de empregos ou o empregador , entrevista e informações relacionadas a salários em tal Conteúdo; (2) Não fazemos nenhuma representação, garantia ou garantia e expressamente nos isentamos de qualquer responsabilidade em relação à precisão, integridade, disponibilidade, atualidade, adequação, confiabilidade ou qualidade das informações em tal Conteúdo; (3) Não assumimos qualquer responsabilidade por Conteúdo não intencional, questionável, impreciso, enganoso ou ilegal disponibilizado por terceiros; e (4) se você acessar tais sites de terceiros, você o fará inteiramente por sua própria conta e risco. Quando você sai dos Serviços, nossos termos e políticas não regem o uso de sites de terceiros. A takinamao não tem nenhuma obrigação de filtrar qualquer Conteúdo, ou incluir qualquer lista de empregos em seus resultados de pesquisa ou outras listas, e pode excluir ou remover qualquer Conteúdo dos Serviços por qualquer ou nenhum motivo.</p>
 
 				<h3>Email</h3>
-				<p>Ao fornecer à Takinamão seu endereço de e-mail, você consente em takinamao usar o endereço de e-mail para enviar mensagens a Você, como alterações nos recursos do Serviço, avisos exigidos por lei, materiais promocionais e de marketing, artigos e notícias da indústria e alertas de emprego. Se você consentiu em receber alertas de trabalho por e-mail, nós lhe enviaremos alertas até que você cancele a inscrição de tais alertas. Você pode cancelar o recebimento de e-mails promocionais, de marketing e outros cancelando a assinatura a qualquer momento. Você reconhece e concorda que a takinamao não terá nenhuma responsabilidade associada ou decorrente de sua falha em manter um endereço de e-mail preciso ou atualizado, incluindo, mas não se limitando a, sua falha em receber informações importantes sobre os Serviços. Consulte a <a href="../privacy/index.html"> Política de Privacidade </a> para obter mais detalhes.</p>
+				<p>Ao fornecer à Takinamão seu endereço de e-mail, você consente em takinamao usar o endereço de e-mail para enviar mensagens a Você, como alterações nos recursos do Serviço, avisos exigidos por lei, materiais promocionais e de marketing, artigos e notícias da indústria e alertas de emprego. Se você consentiu em receber alertas de trabalho por e-mail, nós lhe enviaremos alertas até que você cancele a inscrição de tais alertas. Você pode cancelar o recebimento de e-mails promocionais, de marketing e outros cancelando a assinatura a qualquer momento. Você reconhece e concorda que a takinamao não terá nenhuma responsabilidade associada ou decorrente de sua falha em manter um endereço de e-mail preciso ou atualizado, incluindo, mas não se limitando a, sua falha em receber informações importantes sobre os Serviços. Consulte a <a href="../privacy/index.php"> Política de Privacidade </a> para obter mais detalhes.</p>
 
 				<h3>Segurança da sua conta</h3>
-				<p>Ao se registrar para os Serviços fornecendo seu endereço de e-mail, você também deve estabelecer uma senha para sua conta. Você é o único responsável por manter a segurança e a confidencialidade de sua senha e de todas as atividades (realizadas por você ou por terceiros) com relação aos Serviços que ocorram em sua conta. Todos os usuários devem manter as senhas de suas contas seguras. Recomendamos que você use uma senha “forte” (uma senha que é uma combinação de letras maiúsculas e minúsculas, números e símbolos) com sua conta. Você deve notificar a takinamao imediatamente sobre qualquer violação de segurança ou uso não autorizado de sua conta. takinamao não se responsabiliza por quaisquer perdas causadas por qualquer uso não autorizado de sua conta. Nosso uso de qualquer informação que você fornecer para uso como parte do processo de registro é regido pelos termos de nossa <a href="../privacy/index.html"> Política de Privacidade</a>.</p>
+				<p>Ao se registrar para os Serviços fornecendo seu endereço de e-mail, você também deve estabelecer uma senha para sua conta. Você é o único responsável por manter a segurança e a confidencialidade de sua senha e de todas as atividades (realizadas por você ou por terceiros) com relação aos Serviços que ocorram em sua conta. Todos os usuários devem manter as senhas de suas contas seguras. Recomendamos que você use uma senha “forte” (uma senha que é uma combinação de letras maiúsculas e minúsculas, números e símbolos) com sua conta. Você deve notificar a takinamao imediatamente sobre qualquer violação de segurança ou uso não autorizado de sua conta. takinamao não se responsabiliza por quaisquer perdas causadas por qualquer uso não autorizado de sua conta. Nosso uso de qualquer informação que você fornecer para uso como parte do processo de registro é regido pelos termos de nossa <a href="../privacy/index.php"> Política de Privacidade</a>.</p>
 				<p>O Takinamão pode suspender ou encerrar sua conta e / ou seu acesso aos Serviços a qualquer momento sem aviso prévio, se acreditarmos que Você violou os termos deste Acordo. A takinamao não terá qualquer responsabilidade perante Você por qualquer rescisão ou suspensão do seu acesso aos Serviços.</p>
 
 				<h3>Regras Gerais de Uso dos Serviços</h3>
@@ -206,7 +206,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="footer-logo">
-						<a href="../index.html">
+						<a href="../index.php">
 							<img alt="takinamao busca de empregos" src="../assets/img/logo.png" />
 						</a>
 					</div>
@@ -217,10 +217,10 @@
 							<li class="dropdown-trigger">Quem somos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="../about/index.html">Sobre nós</a></li>
+									<li><a href="../about/index.php">Sobre nós</a></li>
 									<li><a href="../about/work-at-takinamao.html">Carreiras</a></li>
 									<li><a href="../../pages.takinamao.com/Press-Page.html">Aperte</a></li>
-									<li><a href="../contact-us/index.html">Entre em contato conosco</a></li>
+									<li><a href="../contact-us/index.php">Entre em contato conosco</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -230,10 +230,10 @@
 							<li class="dropdown-trigger">A quem servimos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="../job-seekers/index.html">Candidatos</a></li>
-									<li><a href="../employers/index.html">Empregadores</a></li>
-									<li><a href="../data/index.html">Dados</a></li>
-									<li><a href="../publishers/index.html">Publicadores</a></li>
+									<li><a href="../job-seekers/index.php">Candidatos</a></li>
+									<li><a href="../employers/index.php">Empregadores</a></li>
+									<li><a href="../data/index.php">Dados</a></li>
+									<li><a href="../publishers/index.php">Publicadores</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -243,9 +243,9 @@
 							<li class="dropdown-trigger">Recursos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="../../blog.takinamao.com/index.html">Blog</a></li>
-									<li><a href="../resources/index.html">Centro de recursos</a></li>
-									<li><a href="../../pages.takinamao.com/sp500takinamaojobsindex.html">S&P 500 takinamao Jobs Index</a></li>
+									<li><a href="../../blog.takinamao.com/index.php">Blog</a></li>
+									<li><a href="../resources/index.php">Centro de recursos</a></li>
+									<li><a href="../../pages.takinamao.com/sp500takinamaojobsindex.php">S&P 500 takinamao Jobs Index</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -267,7 +267,7 @@
 
 				<div class="row">
 					<div class="col s12">
-						<p class="f-s-14">Mineirando-Software &copy; 2021&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="privacy/index.html">Privacy Policy</a>&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="terms/index.html">Terms of Use</a></p>
+						<p class="f-s-14">Mineirando-Software &copy; 2021&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="privacy/index.php">Privacy Policy</a>&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="terms/index.php">Terms of Use</a></p>
 					</div>
 				</div>
 			</div>

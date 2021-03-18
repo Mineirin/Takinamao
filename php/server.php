@@ -202,7 +202,7 @@ if (isset($_POST['reg_tot'])) {
 
   $_SESSION['id'] = $idCriador;
   $_SESSION['username'] = $nome;
-    header('location: ../index.html');
+    header('location: ../index.php');
   	
   }
 }
@@ -232,7 +232,7 @@ if (isset($_POST['login_user'])) {
 	$_SESSION['id'] = $idCriador;
   	  $_SESSION['username'] = $username;
   	  $_SESSION['success'] = "You are now logged in";
-  	  header('location: ../index.html');
+  	  header('location: ../index.php');
   	}else {
   		array_push($errors, "Usuario ou senha incorreta");
   	}

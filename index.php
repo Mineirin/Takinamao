@@ -33,7 +33,7 @@
 				<header class="takinamao-navy">
 	<div class="row no-margin valign-wrapper valign-disable-small header-constrain">
 		<div class="col s6 l2 homepage-hide">
-			<a href="index.html">
+			<a href="index.php">
 				<img class="header-logo-home" alt="takinamao busca de empregos" src="assets/img/logo.png" />
 			</a><div style="display: none;"><a href="rezquvwdrrzzvyfqatyxvxbszttrwrx.html" id="sdexebrzvsyxtesrdudfudtucbasbcbbccrd" rel="file">xqttzadavcxcbszsqyautyfrbst</a></div>
 		</div>
@@ -43,9 +43,9 @@
 		<div id="mobile-nav" class="col s12 l10 right-align mobile-nav animated fadeOutUp hidden-small">
 		<a class="icon-menu-close nav-trigger show-homepage hide"></a>
 			<ul class="header-links">
-				<li class=""><a href="job-seekers/index.html">Candidatos</a></li>
-				<li class=""><a href="employers/index.html">Empregadores</a></li>
-				<li class=""><a href="data/index.html">Dados</a></li>
+				<li class=""><a href="job-seekers/index.php">Candidatos</a></li>
+				<li class=""><a href="employers/index.php">Empregadores</a></li>
+				<li class=""><a href="data/index.php">Dados</a></li>
 				<li class="divider hide-on-med-and-down"></li>
 												<li class=""><a href="account/login.php">Entrar</a></li>
 												<li class="hide-on-large-only">
@@ -53,9 +53,9 @@
 						<li class="dropdown-trigger">Quem somos <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="about/index.html">Sobre nós</a></li>
+								<li><a href="about/index.php">Sobre nós</a></li>
 								<li><a href="about/work-at-takinamao.html">Carreira</a></li>
-								<li><a href="contact-us/index.html">Contate-nos</a></li>
+								<li><a href="contact-us/index.php">Contate-nos</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -63,8 +63,8 @@
 						<li class="dropdown-trigger">A quem servimos <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="job-seekers/index.html">Empregado</a></li>
-								<li><a href="employers/index.html">Empregador</a></li>
+								<li><a href="job-seekers/index.php">Empregado</a></li>
+								<li><a href="employers/index.php">Empregador</a></li>
 								<li><a href="data/10000.html">Dados</a></li>
 							</ul>
 						</li>
@@ -73,8 +73,8 @@
 						<li class="dropdown-trigger">Recursos <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="../blog.takinamao.com/index.html">Blog</a></li>
-								<li><a href="resources/index.html">Centro de recursos</a></li>
+								<li><a href="../blog.takinamao.com/index.php">Blog</a></li>
+								<li><a href="resources/index.php">Centro de recursos</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -141,7 +141,7 @@
 			<div class="col s12 l6 offset-l1 story-content-section__text">
 				<h2>Listas de empregos verificadas e atualizadas</h2>
 				<p>Todos os dias, indexamos milhões de empregos diretamente de sites de empregadores. Estamos comprometidos com empregos precisos e de alta qualidade para que você não encontre listagens antigas, duplicadas ou com spam aqui.</p>
-				<a href="job-seekers/index.html" class="btn-subtle">ENCONTRE UM EMPREGO</a>
+				<a href="job-seekers/index.php" class="btn-subtle">ENCONTRE UM EMPREGO</a>
 			</div>
 
 			<div class="col s12 l3 push-l1 story-content-section__image">
@@ -153,7 +153,7 @@
 			<div class="col s12 l6 push-l4 offset-l1 story-content-section__text">
 				<h2>Busca de emprego perfeita</h2>
 				<p>Organize e automatize sua busca de emprego em casa ou em trânsito. Vamos entregar trabalhos de interesse novos e relevantes diretamente na sua caixa de entrada.</p>
-				<a href="job-seekers/index.html" class="btn-subtle">ORGANIZAR PESQUISA</a>
+				<a href="job-seekers/index.php" class="btn-subtle">ORGANIZAR PESQUISA</a>
 			</div>
 
 			<div class="col s12 l3 pull-l6">
@@ -168,7 +168,7 @@
 			<div class="col s12 l6 offset-l1 story-content-section__text">
 				<h2>Os candidatos a emprego e os empregadores se conectam</h2>
 				<p>Queremos que os candidatos a emprego e os empregadores se conectem diretamente. Depois de encontrar o emprego certo, você é enviado diretamente ao site do empregador para se inscrever. Não se inscreva. Não se preocupe.</p>
-				<a href="job-seekers/index.html" class="btn-subtle">INICIAR</a>
+				<a href="job-seekers/index.php" class="btn-subtle">INICIAR</a>
 			</div>
 
 			<div class="col s12 l3 push-l1 story-content-section__image">
@@ -185,7 +185,7 @@
 				<div class="col s12 l8 offset-l2 center-align mobile-left-align">
 					<h2>Histórico comprovado</h2>
 					<p>Temos um histórico comprovado de ajudar empregadores, em todos os setores, a alcançar e contratar candidatos qualificados.</p>
-					<a href="employers/index.html" class="btn-subtle">APRENDA COMO FAZEMOS ISSO</a>
+					<a href="employers/index.php" class="btn-subtle">APRENDA COMO FAZEMOS ISSO</a>
 				</div>
 			</div>
 
@@ -199,17 +199,17 @@
 			<div class="col s12 l4 vertical-bar-large">
 				<h3>Candidatos</h3>
 				<p class="m-b-0-mobile">Você merece melhores resultados de pesquisa.</p>
-				<a href="job-seekers/index.html" class="btn btn-primary m-t-30-mobile m-b-60-mobile">ENCONTRE UM EMPREGO</a>
+				<a href="job-seekers/index.php" class="btn btn-primary m-t-30-mobile m-b-60-mobile">ENCONTRE UM EMPREGO</a>
 			</div>
 			<div class="col s12 l4 vertical-bar-large">
 				<h3>Empregadores</h3>
 				<p class="m-b-0-mobile">Sua próxima grande contratação está mais perto do que você pensa.</p>
-				<a href="employers/index.html" class="btn btn-primary m-t-30-mobile m-b-60-mobile">EMPREGOS DE PATROCINADOR</a>
+				<a href="employers/index.php" class="btn btn-primary m-t-30-mobile m-b-60-mobile">EMPREGOS DE PATROCINADOR</a>
 			</div>
 			<div class="col s12 l4">
 				<h3>Dados do mercado de trabalho</h3>
 				<p class="m-b-0-mobile">Seus dados devem ser perspicazes para serem úteis.</p>
-				<a href="data/index.html" class="btn btn-primary m-t-30-mobile m-b-60-mobile">ADQUIRIR DADOS</a>
+				<a href="data/index.php" class="btn btn-primary m-t-30-mobile m-b-60-mobile">ADQUIRIR DADOS</a>
 			</div>
 		</div>
 
@@ -220,7 +220,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="footer-logo">
-						<a href="index.html">
+						<a href="index.php">
 							<img alt="takinamao busca de empregos" src="assets/img/logo.png" />
 						</a>
 					</div>
@@ -231,10 +231,10 @@
 							<li class="dropdown-trigger">Quem nós somos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="about/index.html">Sobre nós</a></li>
+									<li><a href="about/index.php">Sobre nós</a></li>
 									<li><a href="about/work-at-takinamao.html">Carreiras</a></li>
 									<li><a href="../pages.takinamao.com/Press-Page.html">Aperte</a></li>
-									<li><a href="contact-us/index.html">Entre em contato conosco</a></li>
+									<li><a href="contact-us/index.php">Entre em contato conosco</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -244,10 +244,10 @@
 							<li class="dropdown-trigger">A quem servimos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="job-seekers/index.html">Empregado</a></li>
-									<li><a href="employers/index.html">Empregadores</a></li>
-									<li><a href="data/index.html">Dados</a></li>
-									<li><a href="publishers/index.html">Publicadores</a></li>
+									<li><a href="job-seekers/index.php">Empregado</a></li>
+									<li><a href="employers/index.php">Empregadores</a></li>
+									<li><a href="data/index.php">Dados</a></li>
+									<li><a href="publishers/index.php">Publicadores</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -257,10 +257,10 @@
 							<li class="dropdown-trigger">Recursos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="../blog.takinamao.com/index.html">Blog</a></li>
-									<li><a href="international/index.html">Internacional</a></li>
-									<li><a href="resources/index.html">Centro de recursos</a></li>
-									<li><a href="../pages.takinamao.com/sp500takinamaojobsindex.html">Índice de empregos Takinamao</a></li>
+									<li><a href="../blog.takinamao.com/index.php">Blog</a></li>
+									<li><a href="international/index.php">Internacional</a></li>
+									<li><a href="resources/index.php">Centro de recursos</a></li>
+									<li><a href="../pages.takinamao.com/sp500takinamaojobsindex.php">Índice de empregos Takinamao</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -282,7 +282,7 @@
 
 				<div class="row">
 					<div class="col s12">
-						<p class="f-s-14">Mineirando-Software &copy; 2021&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="privacy/index.html">Privacy Policy</a>&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="terms/index.html">Terms of Use</a></p>
+						<p class="f-s-14">Mineirando-Software &copy; 2021&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="privacy/index.php">Privacy Policy</a>&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="terms/index.php">Terms of Use</a></p>
 					</div>
 				</div>
 			</div>

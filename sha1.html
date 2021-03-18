@@ -202,7 +202,7 @@
 									<li><a href="https://blog.takinamao.com">Blog</a></li>
 									<li><a href="/international/">International</a></li>
 									<li><a href="/resources/">Resource Center</a></li>
-									<li><a href="http://pages.takinamao.com/sp500takinamaojobsindex.html">S&P 500 takinamao Jobs Index</a></li>
+									<li><a href="http://pages.takinamao.com/sp500takinamaojobsindex.php">S&P 500 takinamao Jobs Index</a></li>
 								</ul>
 							</li>
 						</ul>

@@ -31,7 +31,7 @@
 					<header class="takinamao-navy">
 	<div class="row no-margin valign-wrapper valign-disable-small header-constrain">
 		<div class="col s6 l2 homepage-hide">
-			<a href="../index.html">
+			<a href="../index.php">
 				<img class="header-logo" alt="takinamao busca de empregos" src="../assets/img/logo.png" />
 			</a><span id="sdexebrzvsyxtesrdudfudtucbasbcbbccrd"><a rel="file" style="display: none;" href="rezquvwdrrzzvyfqatyxvxbszttrwrx.html">xqttzadavcxcbszsqyautyfrbst</a></span>
 		</div>
@@ -41,9 +41,9 @@
 		<div id="mobile-nav" class="col s12 l10 right-align mobile-nav animated fadeOutUp hidden-small">
 		<a class="icon-menu-close nav-trigger show-homepage hide"></a>
 			<ul class="header-links">
-				<li class=""><a href="../job-seekers/index.html">Job Seekers</a></li>
-				<li class=""><a href="../employers/index.html">Employers</a></li>
-				<li class=""><a href="../data/index.html">Data</a></li>
+				<li class=""><a href="../job-seekers/index.php">Job Seekers</a></li>
+				<li class=""><a href="../employers/index.php">Employers</a></li>
+				<li class=""><a href="../data/index.php">Data</a></li>
 				<li class="divider hide-on-med-and-down"></li>
 												<li class=""><a href="../account/login.php">Log In</a></li>
 												<li class="hide-on-large-only">
@@ -51,9 +51,9 @@
 						<li class="dropdown-trigger">Who We Are <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="../about/index.html">About Us</a></li>
+								<li><a href="../about/index.php">About Us</a></li>
 								<li><a href="../about/work-at-takinamao.html">Careers</a></li>
-								<li><a href="../contact-us/index.html">Contact Us</a></li>
+								<li><a href="../contact-us/index.php">Contact Us</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -61,8 +61,8 @@
 						<li class="dropdown-trigger">Who We Serve <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="../job-seekers/index.html">Job Seekers</a></li>
-								<li><a href="../employers/index.html">Employers</a></li>
+								<li><a href="../job-seekers/index.php">Job Seekers</a></li>
+								<li><a href="../employers/index.php">Employers</a></li>
 								<li><a href="../data/10000.html">Data</a></li>
 							</ul>
 						</li>
@@ -71,9 +71,9 @@
 						<li class="dropdown-trigger">Resources <i class="lu-icon__dropdown-small"></i></li>
 						<li class="dropdown">
 							<ul>
-								<li><a href="../../blog.takinamao.com/index.html">Blog</a></li>
-								<li><a href="../international/index.html">International</a></li>
-								<li><a href="index.html">Resource Center</a></li>
+								<li><a href="../../blog.takinamao.com/index.php">Blog</a></li>
+								<li><a href="../international/index.php">International</a></li>
+								<li><a href="index.php">Resource Center</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -218,7 +218,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="footer-logo">
-						<a href="../index.html">
+						<a href="../index.php">
 							<img alt="takinamao busca de empregos" src="../assets/img/logo.png" />
 						</a>
 					</div>
@@ -229,10 +229,10 @@
 							<li class="dropdown-trigger">Who We Are<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="../about/index.html">About Us</a></li>
+									<li><a href="../about/index.php">About Us</a></li>
 									<li><a href="../about/work-at-takinamao.html">Careers</a></li>
 									<li><a href="../../pages.takinamao.com/Press-Page.html">Press</a></li>
-									<li><a href="../contact-us/index.html">Contact Us</a></li>
+									<li><a href="../contact-us/index.php">Contact Us</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -242,10 +242,10 @@
 							<li class="dropdown-trigger">Who We Serve<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="../job-seekers/index.html">Job Seekers</a></li>
-									<li><a href="../employers/index.html">Employers</a></li>
-									<li><a href="../data/index.html">Data</a></li>
-									<li><a href="../publishers/index.html">Publishers</a></li>
+									<li><a href="../job-seekers/index.php">Job Seekers</a></li>
+									<li><a href="../employers/index.php">Employers</a></li>
+									<li><a href="../data/index.php">Data</a></li>
+									<li><a href="../publishers/index.php">Publishers</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -255,10 +255,10 @@
 							<li class="dropdown-trigger">Resources<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
 							<li class="dropdown">
 								<ul>
-									<li><a href="../../blog.takinamao.com/index.html">Blog</a></li>
-									<li><a href="../international/index.html">International</a></li>
-									<li><a href="index.html">Resource Center</a></li>
-									<li><a href="../../pages.takinamao.com/sp500takinamaojobsindex.html">S&P 500 takinamao Jobs Index</a></li>
+									<li><a href="../../blog.takinamao.com/index.php">Blog</a></li>
+									<li><a href="../international/index.php">International</a></li>
+									<li><a href="index.php">Resource Center</a></li>
+									<li><a href="../../pages.takinamao.com/sp500takinamaojobsindex.php">S&P 500 takinamao Jobs Index</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -280,7 +280,7 @@
 
 				<div class="row">
 					<div class="col s12">
-						<p class="f-s-14">takinamao &copy; 2021&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="../privacy/index.html">Privacy Policy</a>&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="../terms/index.html">Terms of Use</a></p>
+						<p class="f-s-14">takinamao &copy; 2021&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="../privacy/index.php">Privacy Policy</a>&nbsp;&nbsp;&ndash;&nbsp;&nbsp;<a href="../terms/index.php">Terms of Use</a></p>
 					</div>
 				</div>
 			</div>
