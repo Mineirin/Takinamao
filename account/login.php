@@ -185,7 +185,7 @@
                     <div class="col s12">
                         <div class="center-align">
                             <h4 class="m-b-0">Não sou um candidato a emprego?</h4>
-                            <a class="btn btn-primary m-r-30" href="https://hire.takinamao.com/">Login do empregador</a>
+                            <a class="btn btn-primary m-r-30" href="../hire.takinamao.com/user/login.html">Login do empregador</a>
                         </div>
                     </div>
                 </div>
