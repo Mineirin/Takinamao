@@ -1,3 +1,22 @@
+<?php 
+include('../php/server.php') ;
+
+  if (!isset($_SESSION['username'])) {
+  	$_SESSION['msg'] = "You must log in first";
+  	//header('location: ../account/login.php');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['username']);
+  	header("location: ../account/login.php");
+  }
+
+  
+ 
+
+  $sort_check_query = 'SELECT * FROM vagas';
+  $result = mysqli_query($db,$sort_check_query);
+?>
 <!DOCTYPE html>
 <html class="takinamao-navy">
 	
@@ -98,116 +117,21 @@
 <div class="static-content p-t-b-45-mobile resources">
 	<div class="container">
 		<h1>Resource Center</h1>
-		<div class="row">
-			<div class="col s12 l3 push-l9">
-				<img src="../assets/img/resources/WebinarImageEagleAlphaJobDataForInvesting.jpg">
-			</div>
-			<div class="col s12 l9 pull-l3">
-				<h3><a href="../../pages.takinamao.com/EagleAlphatakinamaoWebinarJuly2019.html" target="_blank">Incorporating Employment Data into Investment Strategies</a></h3>
-				<p><strong>Webinar</strong></p>
-				<p>takinamao's job listings data provides a window into company performance and strategy. Now, through Eagle Edge dashboards, users can easily explore this large and complex dataset and identify actionable trends and insights for investing. This co-hosted webinar explores examples of how takinamao's dashboards can add value for fundamental investors.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col s12 l3 push-l9">
-				<img src="../assets/img/resources/CannabisWhitepaper_Download_260x160.jpg">
-			</div>
-			<div class="col s12 l9 pull-l3">
-				<h3><a href="../../pages.takinamao.com/2018.04CannabisWhitePaper_03.Landing_SocialDownload.html" target="_blank">The Impact of the Cannabis Industry on the Job Market</a></h3>
-				<p><strong>White paper</strong></p>
-				<p>In our newest white paper we explore the history of marijuana in the U.S., the demands of this emerging industry on human resources, and we dig into takinamao's job market data to understand its impact on the job market.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col s12 l3 push-l9">
-				<img src="../assets/img/resources/lukas-blazek-resourcecenter.jpg">
-			</div>
-			<div class="col s12 l9 pull-l3">
-				<h3><a href="../../pages.takinamao.com/Market-Reports-Webinar_Download.html" target="_blank">How to Leverage Job Market Data</a></h3>
-				<p><strong>Webinar</strong></p>
-				<p>What can job market data tell you about when to invest, where to build, or how to read economic signals? This webinar offers tips for accessing and analyzing job market data and provides real-world use cases.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col s12 l3 push-l9">
-				<img src="../assets/img/resources/EmployerResourcesWhitePaperRecruitingMillennials.jpg">
-			</div>
-			<div class="col s12 l9 pull-l3">
-				<h3><a href="../../pages.takinamao.com/WhitePaperRecruitingMillennials.html" target="_blank">Recruiting Millennials</a></h3>
-				<p><strong>White paper</strong></p>
-				<p>Millennials are the largest generation in our workforce today, but this much-maligned generation has a well-earned reputation for job-hopping. As the future of your organization, here is what you need to know about attracting and retaining Millennials in today’s competitive talent acquisition landscape.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col s12 l3 push-l9">
-				<img src="../assets/img/resources/EmployerResourcesWhitePaperGigEconomy.jpg">
-			</div>
-			<div class="col s12 l9 pull-l3">
-				<h3><a href="../../pages.takinamao.com/takinamaoGigEconomyWP.html" target="_blank">The Gig Economy: The Future or the Falsehood?</a></h3>
-				<p><strong>White paper</strong></p>
-				<p>Driven by many factors, there is an emerging trend of non-traditional employment gathering headlines for its exciting new disruption to the classic work models. Learn what you need to know about recruiting in an on-demand marketplace.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col s12 l3 push-l9">
-				<img src="../assets/img/resources/EmployerResourcesWebinarTopRatedCareerSites.jpg">
-			</div>
-			<div class="col s12 l9 pull-l3">
-				<h3><a href="../../pages.takinamao.com/201609-Top-Career-Sites-2016_Landing_recording-and-slides.html" target="_blank">Top Rated Career Sites</a></h3>
-				<p><strong>Webinar</strong></p>
-				<p>Learn who came out on top, what’s trending in this space, and hear from two-time winner of takinamao’s top career site, UnitedHealth Group as they discuss their innovative strategy to personalize the job search experience and accommodate the rise of mobile.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col s12 l3 push-l9">
-				<img src="../assets/img/resources/EmployerResourcesWebinarDataDrivenRecruitment.jpg">
-			</div>
-			<div class="col s12 l9 pull-l3">
-				<h3><a href="../../pages.takinamao.com/DatadrivenrecruitmentmarketingVideo.html" target="_blank">Data-driven recruitment marketing</a></h3>
-				<p><strong>Webinar</strong></p>
-				<p>Using analytics to recruit and hire. Learn more about how full employment is achieved, whether or not we have reached it, and understand how recruiters and employers can succeed in this challenging economic environment.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col s12 l3 push-l9">
-				<img src="../assets/img/resources/EmployerResourcesWebinarRecruitingInTodaysEconomy.jpg">
-			</div>
-			<div class="col s12 l9 pull-l3">
-				<h3><a href="../../pages.takinamao.com/FullEmploymentWebinarVideo.html" target="_blank">Recruiting in today’s economy</a></h3>
-				<p><strong>Webinar</strong></p>
-				<p>Has the U.S. economy reached full employment? Full employment is a condition in which essentially everyone who is able and willing to work is employed. And while full employment indicates a strong, healthy economy, it creates challenging conditions for recruiting and hiring.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col s12 l3 push-l9">
-				<img src="../assets/img/resources/EmployerResourcesWhitePaperYearoftheCandidate.jpg">
-			</div>
-			<div class="col s12 l9 pull-l3">
-				<h3><a href="../../pages.takinamao.com/TheYearOfTheCandidateWhitePaper.html" target="_blank">The Year of the Candidate</a></h3>
-				<p><strong>White Paper</strong></p>
-				<p>Experts agree the current job market favors the job seeker over the employer. Candidates have the ability to be choosier than the past few years, especially the top talent. Today’s recruiting challenge demands a two-part approach: get the candidate’s attention and treat them well enough to keep it.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col s12 l3 push-l9">
-				<img src="../assets/img/resources/EmployerResourcesWebinarProgrammaticBuying.jpg">
-			</div>
-			<div class="col s12 l9 pull-l3">
-				<h3><a href="../../pages.takinamao.com/ProgrammaticBuyingWebinarVideo.html" target="_blank">Programmatic Buying: A Game Changer for Recruitment Advertising</a></h3>
-				<p><strong>Webinar</strong></p>
-				<p>Programmatic advertising has proven to be a game changer for recruiting. It is designed to optimize the recruitment advertising placement process, and bring down the cost per hire, but it can be a bit confusing.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col s12 l3 push-l9">
-				<img src="../assets/img/resources/EmployerResourcesWhitepaperProgrammaticBuying.jpg">
-			</div>
-			<div class="col s12 l9 pull-l3">
-				<h3><a href="../../pages.takinamao.com/ProgrammaticWhitepaper.html" target="_blank">Programmatic Recruitment Buying</a></h3>
-				<p><strong>White paper</strong></p>
-				<p>In today’s data driven world, programmatic recruitment advertising is a game-changer. Designed to optimize the process, and bring down the cost per hire, it can also be a bit confusing. In this webinar we discuss what it is, how it works and talk with industry experts about what the future looks like for this revolutionary recruiting tool.</p>
-			</div>
-		</div>
+		<?php 
+		 while($row = $result->fetch_assoc()) {
+			 echo '<div class="row">
+			 <div class="col s12 l3 push-l9">
+				 <img src="../assets/img/resources/WebinarImageEagleAlphaJobDataForInvesting.jpg">
+			 </div>
+			 <div class="col s12 l9 pull-l3">
+				 <h3><a href="../../pages.takinamao.com/EagleAlphatakinamaoWebinarJuly2019.html" target="_blank">'.$row['nome'].'</a></h3>
+				 <p><strong>Valor: R$'.$row['valor'].'</strong></p>
+				 <p>'.$row['descricao'].'</p>
+			 </div>
+		 </div>';
+		 }
+		?>
+	
 	</div>
 </div>
 
