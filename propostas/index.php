@@ -113,10 +113,12 @@ include('../php/server.php') ;
 	</div>
 </header>		
 		<main>
-			
+		
 <div class="static-content p-t-b-45-mobile resources">
 	<div class="container">
-		<h1>Resource Center</h1>
+		<h1>Propostas</h1>
+		
+<a class="btn btn-primary btn-icon-split btn-lg mt-3 mb-3 btsalvar" style="color:white" href="create.php">Nova</a>
 		<?php 
 		 while($row = $result->fetch_assoc()) {
 			 echo '<div class="row">
@@ -126,6 +128,7 @@ include('../php/server.php') ;
 			 <div class="col s12 l9 pull-l3">
 				 <h3><a href="../../pages.takinamao.com/EagleAlphatakinamaoWebinarJuly2019.html" target="_blank">'.$row['nome'].'</a></h3>
 				 <p><strong>Valor: R$'.$row['valor'].'</strong></p>
+				 <p><strong>Local: '.$row['cidade'].'</strong></p>
 				 <p>'.$row['descricao'].'</p>
 			 </div>
 		 </div>';
