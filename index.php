@@ -1,3 +1,13 @@
+<?php 
+//https://servicodados.ibge.gov.br/api/v1/localidades/distritos
+$json_file = file_get_contents("https://servicodados.ibge.gov.br/api/v1/localidades/distritos");   
+$json_str = json_decode($json_file, true);
+//$itens = $json_str['nodes'];
+
+
+
+
+?>
 <!DOCTYPE html>
 <html class="takinamao-navy">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -102,6 +112,13 @@
 			<h1 class="hero-header">Encontre seu próximo emprego mais rápido.</h1>
 			<form method="GET" action="https://www.takinamao.com/search/results">
 				<div class="relative-pos">
+				<select class="form-input form-input__homepage" id="cars">
+				<?php 
+				foreach ( $json_str as $e ) 
+				{ echo '<option value="volvo">'.$e['nome'].'</option>'; }
+				?>
+
+</select>
 					<input autocomplete="off" class="form-input form-input__homepage" type="text" name="keyword" placeholder="Cargo, empresa ou palavras-chave">
 					<input class="company-ids-hidden" type="text" name="company_ids" placeholder="" value="" hidden>
 				</div>
