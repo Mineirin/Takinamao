@@ -110,20 +110,22 @@ $json_str = json_decode($json_file, true);
 		<div class="homepage-search-content">
 			<img class="mobile-logo hide-on-large-only" src="assets/img/logo.png" />
 			<h1 class="hero-header">Encontre seu próximo emprego mais rápido.</h1>
-			<form method="GET" action="https://www.takinamao.com/search/results">
+			<form method="GET" action="propostas/result.php">
 				<div class="relative-pos">
-				<select class="form-input form-input__homepage" id="cars">
-				<?php 
-				foreach ( $json_str as $e ) 
-				{ echo '<option value="volvo">'.$e['nome'].'</option>'; }
-				?>
-
-</select>
+				
 					<input autocomplete="off" class="form-input form-input__homepage" type="text" name="keyword" placeholder="Cargo, empresa ou palavras-chave">
 					<input class="company-ids-hidden" type="text" name="company_ids" placeholder="" value="" hidden>
 				</div>
 				<div class="relative-pos">
-											<input autocomplete="off" class="form-input form-input__homepage" type="text" name="location" placeholder="Cidade, estado ou CEP">
+				<select class="form-input form-input__homepage" id="cars" name="city">
+				<?php 
+				foreach ( $json_str as $e ) 
+				
+				{$name = $e['nome'].' '.$e['municipio']['microrregiao']['mesorregiao']['UF']['sigla'];
+					 echo '<option value="'.$name.'">'.$name.'</option>'; }
+				?>
+
+</select>
 									</div>
 				<button class="btn btn-primary no-margin homepage-search-button" type="submit">Procurar empregos</button>
 			</form>

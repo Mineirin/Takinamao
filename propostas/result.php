@@ -11,12 +11,16 @@ include('../php/server.php') ;
   	header("location: ../account/login.php");
   }
 
-  $json_file = file_get_contents("https://servicodados.ibge.gov.br/api/v1/localidades/distritos");   
-$json_str = json_decode($json_file, true);
- 
-
-  $sort_check_query = 'SELECT * FROM vagas';
+  
+ if(isset($_GET['city'])){
+    $sort_check_query = "SELECT * FROM vagas WHERE cidade = '{$_GET['city']}'";
+    $result = mysqli_query($db,$sort_check_query);
+ }
+else{
+      $sort_check_query = 'SELECT * FROM vagas';
   $result = mysqli_query($db,$sort_check_query);
+}
+
 ?>
 <!DOCTYPE html>
 <html class="takinamao-navy">
@@ -114,27 +118,28 @@ $json_str = json_decode($json_file, true);
 	</div>
 </header>		
 		<main>
-			
+		
 <div class="static-content p-t-b-45-mobile resources">
 	<div class="container">
-		<h1>Criar oferta</h1>
-        <form id="reg_sort" class="" method="post" action="create.php" style="    display: flex; flex-direction: column;">
-        <input class="teste" type="text" name="nome" placeholder="nome"/></br>
-        <textarea id="w3review" name="descricao" rows="10" cols="50" placeholder="descricao">
-  </textarea></br>
-  <select class="form-input form-input__homepage" id="cars" name="cidade">
-				<?php 
-				foreach ( $json_str as $e ) 
-				
-				{$name = $e['nome'].' '.$e['municipio']['microrregiao']['mesorregiao']['UF']['sigla'];
-					 echo '<option value="'.$name.'">'.$name.'</option>'; }
-				?>
-
-</select>
-        
-        <input class="teste" type="text" name="valor" placeholder="valor"/></br>
-        </form>
-        <input class="btn btn-primary btn-icon-split btn-lg mt-3 mb-3 btsalvar" type="submit" form="reg_sort" value="Salvar" name="reg_sort" />
+		<h1>Propostas</h1>
+		
+<a class="btn btn-primary btn-icon-split btn-lg mt-3 mb-3 btsalvar" style="color:white" href="create.php">Nova</a>
+		<?php 
+		 while($row = $result->fetch_assoc()) {
+			 echo '<div class="row">
+			 <div class="col s12 l3 push-l9">
+				 <img src="../assets/img/resources/WebinarImageEagleAlphaJobDataForInvesting.jpg">
+			 </div>
+			 <div class="col s12 l9 pull-l3">
+				 <h3><a href="../../pages.takinamao.com/EagleAlphatakinamaoWebinarJuly2019.html" target="_blank">'.$row['nome'].'</a></h3>
+				 <p><strong>Valor: R$'.$row['valor'].'</strong></p>
+				 <p><strong>Local: '.$row['cidade'].'</strong></p>
+				 <p>'.$row['descricao'].'</p>
+			 </div>
+		 </div>';
+		 }
+		?>
+	
 	</div>
 </div>
 
