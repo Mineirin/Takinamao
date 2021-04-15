@@ -113,11 +113,11 @@ $json_str = json_decode($json_file, true);
 			<form method="GET" action="propostas/result.php">
 				<div class="relative-pos">
 				
-					<input autocomplete="off" class="form-input form-input__homepage" type="text" name="keyword" placeholder="Cargo, empresa ou palavras-chave">
+					<input style="height: 60px;" autocomplete="off" class="form-input form-input__homepage" type="text" name="keyword" placeholder="Cargo, empresa ou palavras-chave">
 					<input class="company-ids-hidden" type="text" name="company_ids" placeholder="" value="" hidden>
 				</div>
-				<div class="relative-pos">
-				<select class="form-input form-input__homepage" id="cars" name="city">
+				<div style="height: 60px; padding-top: 4px;" class="relative-pos">
+				<select class="form-input form-input__homepage" id="cars" name="city" style="height: 60px; padding-top: 4px;">
 				<?php 
 				foreach ( $json_str as $e ) 
 				
@@ -211,28 +211,7 @@ $json_str = json_decode($json_file, true);
 		</div>
 	</div>
 		
-	<div class="container story-content center-align">
 
-		<div class="row">
-			<h2 class="m-b-60">Deixe-nos ajudá-lo a começar</h2>
-			<div class="col s12 l4 vertical-bar-large">
-				<h3>Candidatos</h3>
-				<p class="m-b-0-mobile">Você merece melhores resultados de pesquisa.</p>
-				<a href="job-seekers/index.php" class="btn btn-primary m-t-30-mobile m-b-60-mobile">ENCONTRE UM EMPREGO</a>
-			</div>
-			<div class="col s12 l4 vertical-bar-large">
-				<h3>Empregadores</h3>
-				<p class="m-b-0-mobile">Sua próxima grande contratação está mais perto do que você pensa.</p>
-				<a href="employers/index.php" class="btn btn-primary m-t-30-mobile m-b-60-mobile">EMPREGOS DE PATROCINADOR</a>
-			</div>
-			<div class="col s12 l4">
-				<h3>Dados do mercado de trabalho</h3>
-				<p class="m-b-0-mobile">Seus dados devem ser perspicazes para serem úteis.</p>
-				<a href="data/index.php" class="btn btn-primary m-t-30-mobile m-b-60-mobile">ADQUIRIR DADOS</a>
-			</div>
-		</div>
-
-	</div>
 		</main>
 
 		<footer>
@@ -244,60 +223,7 @@ $json_str = json_decode($json_file, true);
 						</a>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col l3 s12">
-						<ul class="footer-links">
-							<li class="dropdown-trigger">Quem nós somos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
-							<li class="dropdown">
-								<ul>
-									<li><a href="about/index.php">Sobre nós</a></li>
-									<li><a href="about/work-at-takinamao.html">Carreiras</a></li>
-									<li><a href="../pages.takinamao.com/Press-Page.html">Aperte</a></li>
-									<li><a href="contact-us/index.php">Entre em contato conosco</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-					<div class="col l3 s12">
-						<ul class="footer-links">
-							<li class="dropdown-trigger">A quem servimos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
-							<li class="dropdown">
-								<ul>
-									<li><a href="job-seekers/index.php">Empregado</a></li>
-									<li><a href="employers/index.php">Empregadores</a></li>
-									<li><a href="data/index.php">Dados</a></li>
-									<li><a href="publishers/index.php">Publicadores</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-					<div class="col l3 s12">
-						<ul class="footer-links">
-							<li class="dropdown-trigger">Recursos<span class="hide-on-large-only"> <i class="lu-icon__dropdown-small"></i></span></li>
-							<li class="dropdown">
-								<ul>
-									<li><a href="../blog.takinamao.com/index.php">Blog</a></li>
-									<li><a href="international/index.php">Internacional</a></li>
-									<li><a href="resources/index.php">Centro de recursos</a></li>
-									<li><a href="../pages.takinamao.com/sp500takinamaojobsindex.php">Índice de empregos Takinamao</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-					<div class="col l3 s12">
-						<ul class="footer-social-links">
-							<li>
-								<a target="_blank" href="#"><i class="icon-facebook"></i></a>
-							</li>
-							<li>
-								<a target="_blank" href="#"><i class="icon-twitter"></i></a>
-							</li>
-							<li>
-								<a target="_blank" href="#"><i class="icon-linkedin"></i></a>
-							</li>
-						</ul>
-					</div>
-				</div>
+				
 
 				<div class="row">
 					<div class="col s12">

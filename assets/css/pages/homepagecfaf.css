@@ -64,11 +64,13 @@
 
 .form-input__homepage {
   background: rgba(58, 110, 143, 0.6);
-  border: none;
-  border-bottom: 1px solid rgba(243, 243, 243, 0.4);
-  color: #f3f3f3;
-  margin-right: 10px;
-  width: 352px;
+    border: none;
+    border-bottom: 1px solid rgba(243, 243, 243, 0.4);
+    color: #f3f3f3;
+    margin-right: 10px;
+    width: 352px;
+    height: 60px !important;
+    padding-top: 0px !important;
 }
 
 .form-input__homepage::-moz-placeholder,
